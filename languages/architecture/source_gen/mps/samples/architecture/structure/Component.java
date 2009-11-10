@@ -56,31 +56,43 @@ public class Component extends BaseConcept implements INamedConcept {
     this.setProperty(Component.VIRTUAL_PACKAGE, value);
   }
 
-  public InterfaceReference getProvidedInterface() {
-    return (InterfaceReference)this.getChild(InterfaceReference.class, Component.PROVIDED_INTERFACE);
+  public int getProvidedInterfacesCount() {
+    return this.getChildCount(Component.PROVIDED_INTERFACE);
   }
 
-  public void setProvidedInterface(InterfaceReference node) {
-    super.setChild(Component.PROVIDED_INTERFACE, node);
+  public Iterator<ProvidedInterface> providedInterfaces() {
+    return this.children(ProvidedInterface.class, Component.PROVIDED_INTERFACE);
+  }
+
+  public List<ProvidedInterface> getProvidedInterfaces() {
+    return this.getChildren(ProvidedInterface.class, Component.PROVIDED_INTERFACE);
+  }
+
+  public void addProvidedInterface(ProvidedInterface node) {
+    this.addChild(Component.PROVIDED_INTERFACE, node);
+  }
+
+  public void insertProvidedInterface(ProvidedInterface prev, ProvidedInterface node) {
+    this.insertChild(prev, Component.PROVIDED_INTERFACE, node);
   }
 
   public int getRequiredInterfacesesCount() {
     return this.getChildCount(Component.REQUIRED_INTERFACES);
   }
 
-  public Iterator<InterfaceReference> requiredInterfaceses() {
-    return this.children(InterfaceReference.class, Component.REQUIRED_INTERFACES);
+  public Iterator<RequiredInterface> requiredInterfaceses() {
+    return this.children(RequiredInterface.class, Component.REQUIRED_INTERFACES);
   }
 
-  public List<InterfaceReference> getRequiredInterfaceses() {
-    return this.getChildren(InterfaceReference.class, Component.REQUIRED_INTERFACES);
+  public List<RequiredInterface> getRequiredInterfaceses() {
+    return this.getChildren(RequiredInterface.class, Component.REQUIRED_INTERFACES);
   }
 
-  public void addRequiredInterfaces(InterfaceReference node) {
+  public void addRequiredInterfaces(RequiredInterface node) {
     this.addChild(Component.REQUIRED_INTERFACES, node);
   }
 
-  public void insertRequiredInterfaces(InterfaceReference prev, InterfaceReference node) {
+  public void insertRequiredInterfaces(RequiredInterface prev, RequiredInterface node) {
     this.insertChild(prev, Component.REQUIRED_INTERFACES, node);
   }
 
