@@ -15,6 +15,9 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class RequiredInterface_Editor extends DefaultNodeEditor {
@@ -29,6 +32,7 @@ public class RequiredInterface_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createConstant_9886_3(context, node, "requires"));
     editorCell.addEditorCell(this.createProperty_9886_3(context, node));
     editorCell.addEditorCell(this.createConstant_9886_1(context, node, "["));
     editorCell.addEditorCell(this.createRefNode_9886_1(context, node));
@@ -58,6 +62,14 @@ public class RequiredInterface_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9886_2(editorCell, node, context);
     setupLabel_Constant_9886_2(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant_9886_3(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_9886_3(editorCell, node, context);
+    setupLabel_Constant_9886_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -176,6 +188,18 @@ public class RequiredInterface_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_9886_2");
   }
 
+  private static void setupBasic_Constant_9886_3(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9886_3");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.red);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
+  }
+
   private static void setupLabel_RefCell_9886_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -192,6 +216,9 @@ public class RequiredInterface_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_9886_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_9886_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline9886_0 extends AbstractCellProvider {
