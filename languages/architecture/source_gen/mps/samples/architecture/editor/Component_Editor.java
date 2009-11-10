@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
@@ -31,6 +32,8 @@ public class Component_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3311_0(context, node, "component"));
     editorCell.addEditorCell(this.createProperty_3311_1(context, node));
+    editorCell.addEditorCell(this.createConstant_3311_2(context, node, "implements"));
+    editorCell.addEditorCell(this.createRefNode_3311_1(context, node));
     editorCell.addEditorCell(this.createConstant_3311_1(context, node, "{}"));
     return editorCell;
   }
@@ -47,6 +50,14 @@ public class Component_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_3311_1(editorCell, node, context);
     setupLabel_Constant_3311_1(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant_3311_2(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_3311_2(editorCell, node, context);
+    setupLabel_Constant_3311_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -70,6 +81,35 @@ public class Component_Editor extends DefaultNodeEditor {
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_3311_0_internal(context, node, provider);
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = context.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+    } else
+    return cellWithRole;
+  }
+
+  public EditorCell createRefNode_3311_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+    CellProviderWithRole provider = aProvider;
+    provider.setAuxiliaryCellProvider(null);
+    EditorCell editorCell = provider.createEditorCell(context);
+    setupBasic_RefNode_3311_0(editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      setupLabel_RefNode_3311_0((EditorCell_Label)editorCell, node, context);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    return editorCell;
+  }
+
+  public EditorCell createRefNode_3311_1(EditorContext context, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, context);
+    provider.setRole("interface");
+    provider.setNoTargetText("<no interface>");
+    provider.setReadOnly(false);
+    provider.setAllowsEmptyTarget(false);
+    EditorCell cellWithRole = this.createRefNode_3311_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -105,6 +145,13 @@ public class Component_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_3311_1");
   }
 
+  private static void setupBasic_Constant_3311_2(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_3311_2");
+  }
+
+  private static void setupBasic_RefNode_3311_0(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
   private static void setupLabel_Constant_3311_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -112,6 +159,12 @@ public class Component_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_3311_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_3311_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_RefNode_3311_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

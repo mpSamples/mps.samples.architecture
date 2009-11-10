@@ -15,6 +15,7 @@ public class Component extends BaseConcept implements INamedConcept {
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
+  public static final String INTERFACE = "interface";
 
   public Component(SNode node) {
     super(node);
@@ -50,6 +51,14 @@ public class Component extends BaseConcept implements INamedConcept {
 
   public void setVirtualPackage(String value) {
     this.setProperty(Component.VIRTUAL_PACKAGE, value);
+  }
+
+  public InterfaceReference getInterface() {
+    return (InterfaceReference)this.getChild(InterfaceReference.class, Component.INTERFACE);
+  }
+
+  public void setInterface(InterfaceReference node) {
+    super.setChild(Component.INTERFACE, node);
   }
 
 

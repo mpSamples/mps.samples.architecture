@@ -18,6 +18,7 @@ public class Architecture extends BaseConcept implements INamedConcept {
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String COMPONENT = "component";
+  public static final String INTERFACE = "interface";
 
   public Architecture(SNode node) {
     super(node);
@@ -73,6 +74,26 @@ public class Architecture extends BaseConcept implements INamedConcept {
 
   public void insertComponent(Component prev, Component node) {
     this.insertChild(prev, Architecture.COMPONENT, node);
+  }
+
+  public int getInterfacesCount() {
+    return this.getChildCount(Architecture.INTERFACE);
+  }
+
+  public Iterator<Interface> interfaces() {
+    return this.children(Interface.class, Architecture.INTERFACE);
+  }
+
+  public List<Interface> getInterfaces() {
+    return this.getChildren(Interface.class, Architecture.INTERFACE);
+  }
+
+  public void addInterface(Interface node) {
+    this.addChild(Architecture.INTERFACE, node);
+  }
+
+  public void insertInterface(Interface prev, Interface node) {
+    this.insertChild(prev, Architecture.INTERFACE, node);
   }
 
 
