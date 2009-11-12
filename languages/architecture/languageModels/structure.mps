@@ -149,5 +149,77 @@
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910274494000">
+    <property name="name" value="System" />
+    <property name="rootable" value="true" />
+    <property name="package" value="system" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274494022">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="instances" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="8369951910274494002" resolveInfo="Instance" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274721109">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="connections" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="8369951910274721099" resolveInfo="Connection" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="8369951910274494001">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910274494002">
+    <property name="package" value="system" />
+    <property name="name" value="Instance" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="8369951910274494003">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274494004">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="component" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="6037042154708547716" resolveInfo="Component" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910274721099">
+    <property name="package" value="system" />
+    <property name="name" value="Connection" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274721100">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="requiredInstance" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="8369951910274494002" resolveInfo="Instance" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910275407507">
+    <property name="name" value="Namespace" />
+    <property name="rootable" value="true" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="8369951910275407508">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910275407509">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="namespaces" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="8369951910275407507" resolveInfo="Namespace" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910275407510">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="components" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="6037042154708547716" resolveInfo="Component" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910275407511">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="systems" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="8369951910274494000" resolveInfo="System" />
+    </node>
+  </node>
 </model>
 
