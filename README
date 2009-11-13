@@ -6,4 +6,8 @@ for details of the language.
 This sample shows:
 * Creation of a more real-world-like example for a DSL of software architectures
 
+Some of the Todos:
+* Typesystem - accept only the right required interfaces in connect
+* Editor: query type interface selection is somewhat strange
+
 Comments are highly welcome!
