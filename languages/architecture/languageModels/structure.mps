@@ -166,6 +166,12 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="8369951910274721099" resolveInfo="Connection" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747596031718">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="dynamicConnections" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="6104578747595787913" resolveInfo="DynamicConnection" />
+    </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="8369951910274494001">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -188,11 +194,17 @@
     <property name="package" value="system" />
     <property name="name" value="Connection" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274721100">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="requiredInstance" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595537814">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="leftSide" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="8369951910274494002" resolveInfo="Instance" />
+      <link role="target" targetNodeId="6104578747595537801" resolveInfo="RequiredInterfaceConnectionEndpoint" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595666182">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="rightSide" />
+      <property name="sourceCardinality" value="1..n" />
+      <link role="target" targetNodeId="6104578747595666169" resolveInfo="ProvidedInterfaceConnectionEndpoint" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910275407507">
@@ -219,6 +231,127 @@
       <property name="role" value="systems" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="8369951910274494000" resolveInfo="System" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910276192775">
+    <property name="name" value="ProvidedInterfaceReference" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910276192776">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="providedInterface" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="6037042154710100691" resolveInfo="ProvidedInterface" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8369951910276413980">
+    <property name="name" value="RequiredInterfaceReference" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910276413981">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="requiredInterface" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="6037042154708978123" resolveInfo="RequiredInterface" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="406401626220751190">
+    <property name="package" value="system" />
+    <property name="name" value="InstanceReference" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="406401626220751191">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="instance" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="8369951910274494002" resolveInfo="Instance" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747595537796">
+    <property name="package" value="system" />
+    <property name="name" value="ConnectionEndpoint" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="6104578747595537800">
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747595537801">
+    <property name="package" value="system" />
+    <property name="name" value="RequiredInterfaceConnectionEndpoint" />
+    <link role="extends" targetNodeId="6104578747595537796" resolveInfo="ConnectionEndpoint" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595537802">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="leftSide" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="406401626220751190" resolveInfo="InstanceReference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595537803">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="requiredInterfaceReference" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="8369951910276413980" resolveInfo="RequiredInterfaceReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747595666169">
+    <property name="package" value="system" />
+    <property name="name" value="ProvidedInterfaceConnectionEndpoint" />
+    <link role="extends" targetNodeId="6104578747595537796" resolveInfo="ConnectionEndpoint" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595666170">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="instanceReference" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="406401626220751190" resolveInfo="InstanceReference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595666171">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="providedInterfaceReference" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="8369951910276192775" resolveInfo="ProvidedInterfaceReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747595787913">
+    <property name="package" value="system" />
+    <property name="name" value="DynamicConnection" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6104578747595909767">
+      <property name="name" value="interval" />
+      <link role="dataType" targetNodeId="2v.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595787914">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="leftSide" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="6104578747595537801" resolveInfo="RequiredInterfaceConnectionEndpoint" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747596031695">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="query" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="6104578747595909768" resolveInfo="DynamicConnectionQuery" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747595909768">
+    <property name="package" value="system" />
+    <property name="name" value="DynamicConnectionQuery" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6104578747596031654">
+      <property name="name" value="status" />
+      <link role="dataType" targetNodeId="6104578747596031650" resolveInfo="StatusEnum" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747595909769">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="type" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="8369951910276192775" resolveInfo="ProvidedInterfaceReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="6104578747596031650">
+    <property name="name" value="StatusEnum" />
+    <link role="memberDataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="6104578747596031651">
+      <property name="internalValue" value="active" />
+      <property name="externalValue" value="active" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="6104578747596031652">
+      <property name="internalValue" value="passive" />
+      <property name="externalValue" value="passive" />
     </node>
   </node>
 </model>

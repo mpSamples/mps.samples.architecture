@@ -64,10 +64,47 @@
   </node>
   <node type="mps.samples.architecture.structure.System" id="8369951910274609509">
     <property name="name" value="testSystem" />
-    <node role="connections" type="mps.samples.architecture.structure.Connection" id="8369951910274837238">
-      <link role="requiredInterface" targetNodeId="6037042154709628849" resolveInfo="screens" />
-      <link role="providedInterfaces" targetNodeId="6037042154710327100" resolveInfo="default" />
-      <link role="requiredInstance" targetNodeId="8369951910274609510" resolveInfo="dc" />
+    <node role="dynamicConnections" type="mps.samples.architecture.structure.DynamicConnection" id="6104578747596276704">
+      <property name="interval" value="60" />
+      <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="6104578747596276705">
+        <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="6104578747596276710">
+          <link role="instance" targetNodeId="8369951910274609510" resolveInfo="dc" />
+        </node>
+        <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="6104578747596276711">
+          <link role="requiredInterface" targetNodeId="6037042154709628849" resolveInfo="screens" />
+        </node>
+      </node>
+      <node role="query" type="mps.samples.architecture.structure.DynamicConnectionQuery" id="6104578747596276708">
+        <node role="type" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="6104578747596276712">
+          <link role="providedInterface" targetNodeId="6037042154710327100" resolveInfo="default" />
+        </node>
+      </node>
+    </node>
+    <node role="connections" type="mps.samples.architecture.structure.Connection" id="6104578747596276688">
+      <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="6104578747596276689">
+        <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="6104578747596276695">
+          <link role="instance" targetNodeId="8369951910274609510" resolveInfo="dc" />
+        </node>
+        <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="6104578747596276696">
+          <link role="requiredInterface" targetNodeId="6037042154709628849" resolveInfo="screens" />
+        </node>
+      </node>
+      <node role="rightSide" type="mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint" id="6104578747596276692">
+        <node role="instanceReference" type="mps.samples.architecture.structure.InstanceReference" id="6104578747596276697">
+          <link role="instance" targetNodeId="8369951910274609511" resolveInfo="screen1" />
+        </node>
+        <node role="providedInterfaceReference" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="6104578747596276698">
+          <link role="providedInterface" targetNodeId="6037042154710327100" resolveInfo="default" />
+        </node>
+      </node>
+      <node role="rightSide" type="mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint" id="6104578747596276699">
+        <node role="instanceReference" type="mps.samples.architecture.structure.InstanceReference" id="6104578747596276702">
+          <link role="instance" targetNodeId="8369951910274609512" resolveInfo="screen2" />
+        </node>
+        <node role="providedInterfaceReference" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="6104578747596276703">
+          <link role="providedInterface" targetNodeId="6037042154710327100" resolveInfo="default" />
+        </node>
+      </node>
     </node>
     <node role="instances" type="mps.samples.architecture.structure.Instance" id="8369951910274609510">
       <property name="name" value="dc" />
@@ -134,8 +171,21 @@
     <property name="name" value="com.mycompany.test" />
     <node role="systems" type="mps.samples.architecture.structure.System" id="8369951910275640425">
       <property name="name" value="testSystem" />
-      <node role="connections" type="mps.samples.architecture.structure.Connection" id="8369951910275640429">
-        <link role="requiredInstance" targetNodeId="8369951910275640426" resolveInfo="dc" />
+      <node role="dynamicConnections" type="mps.samples.architecture.structure.DynamicConnection" id="6104578747596276713">
+        <property name="interval" value="60" />
+        <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="6104578747596276714">
+          <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="6104578747596276719">
+            <link role="instance" targetNodeId="8369951910275640426" resolveInfo="dc" />
+          </node>
+          <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="6104578747596276720">
+            <link role="requiredInterface" targetNodeId="8369951910275640413" resolveInfo="screens" />
+          </node>
+        </node>
+        <node role="query" type="mps.samples.architecture.structure.DynamicConnectionQuery" id="6104578747596276717">
+          <node role="type" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="6104578747596276721">
+            <link role="providedInterface" targetNodeId="8369951910275640420" resolveInfo="default" />
+          </node>
+        </node>
       </node>
       <node role="instances" type="mps.samples.architecture.structure.Instance" id="8369951910275640426">
         <property name="name" value="dc" />

@@ -4,24 +4,47 @@ package mps.samples.architecture.structure;
 
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.smodel.SNode;
+import java.util.Iterator;
+import java.util.List;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class Connection extends BaseConcept {
   public static final String concept = "mps.samples.architecture.structure.Connection";
-  public static final String REQUIRED_INSTANCE = "requiredInstance";
+  public static final String LEFT_SIDE = "leftSide";
+  public static final String RIGHT_SIDE = "rightSide";
 
   public Connection(SNode node) {
     super(node);
   }
 
-  public Instance getRequiredInstance() {
-    return (Instance)this.getReferent(Instance.class, Connection.REQUIRED_INSTANCE);
+  public RequiredInterfaceConnectionEndpoint getLeftSide() {
+    return (RequiredInterfaceConnectionEndpoint)this.getChild(RequiredInterfaceConnectionEndpoint.class, Connection.LEFT_SIDE);
   }
 
-  public void setRequiredInstance(Instance node) {
-    super.setReferent(Connection.REQUIRED_INSTANCE, node);
+  public void setLeftSide(RequiredInterfaceConnectionEndpoint node) {
+    super.setChild(Connection.LEFT_SIDE, node);
+  }
+
+  public int getRightSidesCount() {
+    return this.getChildCount(Connection.RIGHT_SIDE);
+  }
+
+  public Iterator<ProvidedInterfaceConnectionEndpoint> rightSides() {
+    return this.children(ProvidedInterfaceConnectionEndpoint.class, Connection.RIGHT_SIDE);
+  }
+
+  public List<ProvidedInterfaceConnectionEndpoint> getRightSides() {
+    return this.getChildren(ProvidedInterfaceConnectionEndpoint.class, Connection.RIGHT_SIDE);
+  }
+
+  public void addRightSide(ProvidedInterfaceConnectionEndpoint node) {
+    this.addChild(Connection.RIGHT_SIDE, node);
+  }
+
+  public void insertRightSide(ProvidedInterfaceConnectionEndpoint prev, ProvidedInterfaceConnectionEndpoint node) {
+    this.insertChild(prev, Connection.RIGHT_SIDE, node);
   }
 
 

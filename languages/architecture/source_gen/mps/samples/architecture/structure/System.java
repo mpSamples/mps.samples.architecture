@@ -19,6 +19,7 @@ public class System extends BaseConcept implements INamedConcept {
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String INSTANCES = "instances";
   public static final String CONNECTIONS = "connections";
+  public static final String DYNAMIC_CONNECTIONS = "dynamicConnections";
 
   public System(SNode node) {
     super(node);
@@ -94,6 +95,26 @@ public class System extends BaseConcept implements INamedConcept {
 
   public void insertConnections(Connection prev, Connection node) {
     this.insertChild(prev, System.CONNECTIONS, node);
+  }
+
+  public int getDynamicConnectionsesCount() {
+    return this.getChildCount(System.DYNAMIC_CONNECTIONS);
+  }
+
+  public Iterator<DynamicConnection> dynamicConnectionses() {
+    return this.children(DynamicConnection.class, System.DYNAMIC_CONNECTIONS);
+  }
+
+  public List<DynamicConnection> getDynamicConnectionses() {
+    return this.getChildren(DynamicConnection.class, System.DYNAMIC_CONNECTIONS);
+  }
+
+  public void addDynamicConnections(DynamicConnection node) {
+    this.addChild(System.DYNAMIC_CONNECTIONS, node);
+  }
+
+  public void insertDynamicConnections(DynamicConnection prev, DynamicConnection node) {
+    this.insertChild(prev, System.DYNAMIC_CONNECTIONS, node);
   }
 
 
