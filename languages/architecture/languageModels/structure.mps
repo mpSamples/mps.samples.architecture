@@ -160,6 +160,12 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="8369951910274494002" resolveInfo="Instance" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747596404892">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="registeredInstance" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="6104578747596276722" resolveInfo="RegisteredInstance" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8369951910274721109">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="connections" />
@@ -352,6 +358,29 @@
     <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="6104578747596031652">
       <property name="internalValue" value="passive" />
       <property name="externalValue" value="passive" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747596276722">
+    <property name="package" value="system" />
+    <property name="name" value="RegisteredInstance" />
+    <link role="extends" targetNodeId="8369951910274494002" resolveInfo="Instance" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6104578747596276744">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="instanceRegistrationParameter" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="6104578747596276723" resolveInfo="InstanceRegistrationParameter" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6104578747596276723">
+    <property name="package" value="system" />
+    <property name="name" value="InstanceRegistrationParameter" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6104578747596276725">
+      <property name="name" value="value" />
+      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6104578747596276724">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
 </model>

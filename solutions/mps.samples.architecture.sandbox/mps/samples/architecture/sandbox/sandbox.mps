@@ -64,6 +64,22 @@
   </node>
   <node type="mps.samples.architecture.structure.System" id="8369951910274609509">
     <property name="name" value="testSystem" />
+    <node role="registeredInstance" type="mps.samples.architecture.structure.RegisteredInstance" id="6104578747596533553">
+      <property name="name" value="dc1" />
+      <link role="component" targetNodeId="6037042154708760504" resolveInfo="DelayCalculator" />
+      <node role="instanceRegistrationParameter" type="mps.samples.architecture.structure.InstanceRegistrationParameter" id="6104578747596533554">
+        <property name="name" value="role" />
+        <property name="value" value="primary" />
+      </node>
+    </node>
+    <node role="registeredInstance" type="mps.samples.architecture.structure.RegisteredInstance" id="6104578747596533555">
+      <property name="name" value="dc2" />
+      <link role="component" targetNodeId="6037042154708760504" resolveInfo="DelayCalculator" />
+      <node role="instanceRegistrationParameter" type="mps.samples.architecture.structure.InstanceRegistrationParameter" id="6104578747596533556">
+        <property name="name" value="role" />
+        <property name="value" value="backup" />
+      </node>
+    </node>
     <node role="dynamicConnections" type="mps.samples.architecture.structure.DynamicConnection" id="6104578747596276704">
       <property name="interval" value="60" />
       <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="6104578747596276705">

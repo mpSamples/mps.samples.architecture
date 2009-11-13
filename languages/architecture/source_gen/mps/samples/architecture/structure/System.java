@@ -18,6 +18,7 @@ public class System extends BaseConcept implements INamedConcept {
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String INSTANCES = "instances";
+  public static final String REGISTERED_INSTANCE = "registeredInstance";
   public static final String CONNECTIONS = "connections";
   public static final String DYNAMIC_CONNECTIONS = "dynamicConnections";
 
@@ -75,6 +76,26 @@ public class System extends BaseConcept implements INamedConcept {
 
   public void insertInstances(Instance prev, Instance node) {
     this.insertChild(prev, System.INSTANCES, node);
+  }
+
+  public int getRegisteredInstancesCount() {
+    return this.getChildCount(System.REGISTERED_INSTANCE);
+  }
+
+  public Iterator<RegisteredInstance> registeredInstances() {
+    return this.children(RegisteredInstance.class, System.REGISTERED_INSTANCE);
+  }
+
+  public List<RegisteredInstance> getRegisteredInstances() {
+    return this.getChildren(RegisteredInstance.class, System.REGISTERED_INSTANCE);
+  }
+
+  public void addRegisteredInstance(RegisteredInstance node) {
+    this.addChild(System.REGISTERED_INSTANCE, node);
+  }
+
+  public void insertRegisteredInstance(RegisteredInstance prev, RegisteredInstance node) {
+    this.insertChild(prev, System.REGISTERED_INSTANCE, node);
   }
 
   public int getConnectionsesCount() {
