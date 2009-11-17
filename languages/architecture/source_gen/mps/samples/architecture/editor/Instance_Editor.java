@@ -47,6 +47,10 @@ public class Instance_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_5159_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_5159_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }

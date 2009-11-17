@@ -92,6 +92,10 @@ public class RegisteredInstance_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_6085_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_6085_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }

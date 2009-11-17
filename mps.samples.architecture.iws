@@ -53,12 +53,11 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="488eb37f-eaf3-4983-b21e-4b52f34f573e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.-4bu7wnz7pytmkxl02gddw8vf62epbe4" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.-6njo0maau2cndulxeaqxnj7755t99tt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/ProvidedInterfaceConnectionEndpoint_Editor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/ProvidedInterfaceConnectionEndpoint_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.dependencies" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mps.samples.architecture.iws" afterPath="$PROJECT_DIR$/mps.samples.architecture.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/RequiredInterfaceConnectionEndpoint_Editor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/RequiredInterfaceConnectionEndpoint_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/RegisteredInstance_Editor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/RegisteredInstance_Editor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.-6njo0maau2cndulxeaqxnj7755t99tt" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.-373nkattzobqzzghtvz0b8lgatwef0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/Instance_Editor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/Instance_Editor.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="mps.samples.architecture.iws" />
@@ -93,6 +92,48 @@
         <entry file="mps://mps.samples.architecture.sandbox.sandbox/testSystem">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteredInstance" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/RegisteredInstance">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instance" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/Instance">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
           </provider>
         </entry>
       </file>
@@ -494,7 +535,7 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="RequiredInterfaceConnectionEndpoint" />
+                <option name="myItemId" value="RegisteredInstance" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
@@ -564,7 +605,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="1" width="1910" height="1160" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -587,7 +628,7 @@
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.48110697" order="7" side_tool="false" />
       <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.4513039" order="7" side_tool="false" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Inspector" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.54497075" order="7" side_tool="true" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.54497075" order="7" side_tool="true" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
@@ -635,7 +676,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cosmetics: separator for connection provided interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="cosmetics: spaces before and after point removed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -662,6 +703,7 @@
     <MESSAGE value="new constraint: left side of connect is limited to the required interfaces of the choosen component instance" />
     <MESSAGE value="new constraint: right side of connect is limited to the provided interfaces of the choosen component instance" />
     <MESSAGE value="cosmetics: separator for connection provided interfaces" />
+    <MESSAGE value="cosmetics: spaces before and after point removed" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -698,25 +740,6 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://mps.samples.architecture.structure/Architecture">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://com.mycompany/com.mycompany">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
@@ -747,25 +770,6 @@
       </provider>
     </entry>
     <entry file="mps://mps.samples.architecture.structure/InstanceReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.samples.architecture.structure/Instance">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
@@ -909,6 +913,44 @@
       </provider>
     </entry>
     <entry file="mps://mps.samples.architecture.structure/RequiredInterfaceConnectionEndpoint">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.structure/Instance">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.structure/RegisteredInstance">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
           <inner_tabs>
