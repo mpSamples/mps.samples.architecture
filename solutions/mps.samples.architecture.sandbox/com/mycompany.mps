@@ -9,6 +9,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
+  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="0" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:c8e69b8d-c6cf-473d-9b3e-c763155239b6(mps.samples.architecture.sandbox.sandbox)" version="-1" />
   <node type="mps.samples.architecture.structure.Namespace" id="1487527769976628634">
@@ -22,11 +23,11 @@
           <link role="interface" targetNodeId="1.6037042154709087630" resolveInfo="IInfoScreen" />
           <node role="cardinality" type="mps.samples.architecture.structure.NullToN" id="1487527769976628638" />
         </node>
-        <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628639">
+        <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628639">
           <property name="name" value="aircraft" />
           <link role="interface" targetNodeId="1.6037042154710213863" resolveInfo="IAircraftStatus" />
         </node>
-        <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628640">
+        <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628640">
           <property name="name" value="managementConsole" />
           <link role="interface" targetNodeId="1.6037042154710213864" resolveInfo="IManagementConsole" />
         </node>

@@ -195,9 +195,9 @@ public class Component_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createRefNodeList_3311_3(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Component_Editor.providedInterfaceListHandler_3311_0(node, "providedInterface", editorContext);
+    AbstractCellListHandler handler = new Component_Editor.providedInterfacesListHandler_3311_0(node, "providedInterfaces", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_providedInterface");
+    editorCell.setCellId("refNodeList_providedInterfaces");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -346,8 +346,8 @@ public class Component_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class providedInterfaceListHandler_3311_0 extends RefNodeListHandler {
-    public providedInterfaceListHandler_3311_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class providedInterfacesListHandler_3311_0 extends RefNodeListHandler {
+    public providedInterfacesListHandler_3311_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

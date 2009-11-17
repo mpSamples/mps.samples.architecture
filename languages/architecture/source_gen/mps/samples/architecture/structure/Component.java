@@ -17,7 +17,7 @@ public class Component extends BaseConcept implements INamedConcept {
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
-  public static final String PROVIDED_INTERFACE = "providedInterface";
+  public static final String PROVIDED_INTERFACES = "providedInterfaces";
   public static final String REQUIRED_INTERFACES = "requiredInterfaces";
   public static final String PUBLISHED_REPLICATED_ITEM = "publishedReplicatedItem";
   public static final String CONSUMED_REPLICATED_ITEM = "consumedReplicatedItem";
@@ -58,24 +58,24 @@ public class Component extends BaseConcept implements INamedConcept {
     this.setProperty(Component.VIRTUAL_PACKAGE, value);
   }
 
-  public int getProvidedInterfacesCount() {
-    return this.getChildCount(Component.PROVIDED_INTERFACE);
+  public int getProvidedInterfacesesCount() {
+    return this.getChildCount(Component.PROVIDED_INTERFACES);
   }
 
-  public Iterator<ProvidedInterface> providedInterfaces() {
-    return this.children(ProvidedInterface.class, Component.PROVIDED_INTERFACE);
+  public Iterator<ProvidedInterface> providedInterfaceses() {
+    return this.children(ProvidedInterface.class, Component.PROVIDED_INTERFACES);
   }
 
-  public List<ProvidedInterface> getProvidedInterfaces() {
-    return this.getChildren(ProvidedInterface.class, Component.PROVIDED_INTERFACE);
+  public List<ProvidedInterface> getProvidedInterfaceses() {
+    return this.getChildren(ProvidedInterface.class, Component.PROVIDED_INTERFACES);
   }
 
-  public void addProvidedInterface(ProvidedInterface node) {
-    this.addChild(Component.PROVIDED_INTERFACE, node);
+  public void addProvidedInterfaces(ProvidedInterface node) {
+    this.addChild(Component.PROVIDED_INTERFACES, node);
   }
 
-  public void insertProvidedInterface(ProvidedInterface prev, ProvidedInterface node) {
-    this.insertChild(prev, Component.PROVIDED_INTERFACE, node);
+  public void insertProvidedInterfaces(ProvidedInterface prev, ProvidedInterface node) {
+    this.insertChild(prev, Component.PROVIDED_INTERFACES, node);
   }
 
   public int getRequiredInterfacesesCount() {

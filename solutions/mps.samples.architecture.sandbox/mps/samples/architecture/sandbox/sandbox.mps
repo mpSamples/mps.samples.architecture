@@ -9,6 +9,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
+  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="0" />
   <maxImportIndex value="0" />
   <node type="mps.samples.architecture.structure.Architecture" id="6037042154708760503">
     <property name="name" value="My Architecture" />
@@ -36,11 +37,11 @@
           <property name="value" value="onchange" />
         </node>
       </node>
-      <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710213860">
+      <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710213860">
         <property name="name" value="aircraft" />
         <link role="interface" targetNodeId="6037042154710213863" resolveInfo="IAircraftStatus" />
       </node>
-      <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710213866">
+      <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710213866">
         <property name="name" value="managementConsole" />
         <link role="interface" targetNodeId="6037042154710213864" resolveInfo="IManagementConsole" />
       </node>
@@ -71,7 +72,7 @@
           <property name="value" value="every(60)" />
         </node>
       </node>
-      <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710327100">
+      <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="6037042154710327100">
         <property name="name" value="default" />
         <link role="interface" targetNodeId="6037042154709087630" resolveInfo="IInfoScreen" />
       </node>
@@ -162,7 +163,7 @@
     <property name="name" value="mobile" />
     <node role="components" type="mps.samples.architecture.structure.Component" id="8369951910275640419">
       <property name="name" value="InfoScreen" />
-      <node role="providedInterface" type="mps.samples.architecture.structure.ProvidedInterface" id="8369951910275640420">
+      <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="8369951910275640420">
         <property name="name" value="default" />
         <link role="interface" targetNodeId="6037042154709087630" resolveInfo="IInfoScreen" />
       </node>

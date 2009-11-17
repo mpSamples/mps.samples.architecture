@@ -53,18 +53,26 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="488eb37f-eaf3-4983-b21e-4b52f34f573e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/behavior/Architecture_Behavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/mps/samples/architecture/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/mps/samples/architecture/sandbox/sandbox.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/Component_Editor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/editor/Component_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mps.samples.architecture.iws" afterPath="$PROJECT_DIR$/mps.samples.architecture.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.hash.eji9e3tgqchhxmlky7jq15fs76qv8cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.dependencies" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/structure/Component.class" afterPath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/structure/Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor.class" afterPath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/structure/Component.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/structure/Component.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/typesystem.mps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/structure.metadata" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/structure/.hash.78z8eg908lji2ak56ih278cbl9072gh" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/structure/.hash.kntpayzbt8e32wt0sf3t8gy62bgl5i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/constraints/ConstraintsDescriptor.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/constraints/ConstraintsDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/constraints.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/constraints/RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.hash.8m4xyg34wlatsvnv75nnm1mtgj06a9k" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.hash.-6yqmtpi6bshx9at549jvomqwxm8sdl4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.debug" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/constraints/ConstraintsDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.hash.eji9e3tgqchhxmlky7jq15fs76qv8cc" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/behavior/.hash.-1s2lt5ex2jn6f0qjld1uufgj6dsv2gi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.dependencies" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/constraints/ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.hash.-6yqmtpi6bshx9at549jvomqwxm8sdl4" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.hash.di1necqd2zsyzzf3vij8hfqr0g5gjhl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.-14cs56eh29esvswp2rfoygo6kgiv1r5" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/editor/.hash.edlajaqyjfa6l8o15li1vl6feqkg2ol" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.debug" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/constraints/.debug" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="mps.samples.architecture.iws" />
@@ -95,7 +103,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testSystem" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="testSystem" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://mps.samples.architecture.sandbox.sandbox/testSystem">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
@@ -165,6 +173,90 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ProvidedInterfaceReference" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/ProvidedInterfaceReference">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/Component">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProvidedInterfaceConnectionEndpoint" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/ProvidedInterfaceConnectionEndpoint">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProvidedInterface" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://mps.samples.architecture.structure/ProvidedInterface">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RequiredInterface" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://mps.samples.architecture.structure/RequiredInterface">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -186,7 +278,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My Architecture" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="My Architecture" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://mps.samples.architecture.sandbox.sandbox/My Architecture">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
@@ -496,11 +588,7 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="system" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="RequiredInterfaceConnectionEndpoint" />
+                <option name="myItemId" value="Component" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
@@ -590,14 +678,15 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.48296058" order="7" side_tool="false" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.45556146" order="7" side_tool="false" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.48110697" order="7" side_tool="false" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.45343268" order="7" side_tool="false" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.54071313" order="7" side_tool="true" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.5428419" order="7" side_tool="true" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="cell explorer view" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Run Build Language Project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -607,7 +696,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="RunClass" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
@@ -641,7 +729,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="new constraint: left side of connect is limited to the required interfaces of the choosen component instance" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -665,6 +753,7 @@
     <MESSAGE value="registered instances" />
     <MESSAGE value="some todos added" />
     <MESSAGE value="added more concepts" />
+    <MESSAGE value="new constraint: left side of connect is limited to the required interfaces of the choosen component instance" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -701,82 +790,6 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://mps.samples.architecture.structure/ConsumedReplicatedItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.samples.architecture.structure/DynamicConnectionQuery">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.samples.architecture.structure/PublishedReplicatedItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.samples.architecture.structure/ReplicationProperty">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://mps.samples.architecture.structure/ReplicatedItem">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
@@ -906,6 +919,30 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="mps://mps.samples.architecture.sandbox.sandbox/My Architecture">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.structure/ProvidedInterface">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://mps.samples.architecture.structure/RequiredInterfaceReference">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
@@ -925,12 +962,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://mps.samples.architecture.sandbox.sandbox/testSystem">
+    <entry file="mps://mps.samples.architecture.structure/ProvidedInterfaceConnectionEndpoint">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
       </provider>
     </entry>
-    <entry file="mps://mps.samples.architecture.sandbox.sandbox/My Architecture">
+    <entry file="mps://mps.samples.architecture.structure/Component">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.structure/ProvidedInterfaceReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.sandbox.sandbox/testSystem">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
