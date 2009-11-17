@@ -400,6 +400,7 @@
         <property name="text" value="(" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="6104578747595666184">
+        <property name="separatorText" value="," />
         <link role="relationDeclaration" targetNodeId="1.6104578747595666182" />
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="6104578747595666185" />
       </node>
