@@ -224,5 +224,10 @@
       <link role="dataStructure" targetNodeId="6104578747596796864" resolveInfo="FlightInfo" />
     </node>
   </node>
+  <node type="mps.samples.architecture.structure.Architecture" id="1487527769976977319">
+    <property name="name" value="Test" />
+    <node role="component" type="mps.samples.architecture.structure.Component" id="1487527769976977320" />
+    <node role="interface" type="mps.samples.architecture.structure.Interface" id="1487527769976977321" />
+  </node>
 </model>
 

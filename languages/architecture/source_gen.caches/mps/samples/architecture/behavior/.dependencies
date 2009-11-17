@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="mps.samples.architecture.behavior.Architecture_Behavior">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
   <dependency className="mps.samples.architecture.behavior.Connection_Behavior">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
