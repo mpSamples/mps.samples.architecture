@@ -61,7 +61,6 @@ public class InstanceRegistrationParameter extends BaseConcept implements INamed
     this.setProperty(InstanceRegistrationParameter.VIRTUAL_PACKAGE, value);
   }
 
-
   public static InstanceRegistrationParameter newInstance(SModel sm, boolean init) {
     return (InstanceRegistrationParameter)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.InstanceRegistrationParameter", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -69,5 +68,4 @@ public class InstanceRegistrationParameter extends BaseConcept implements INamed
   public static InstanceRegistrationParameter newInstance(SModel sm) {
     return InstanceRegistrationParameter.newInstance(sm, false);
   }
-
 }

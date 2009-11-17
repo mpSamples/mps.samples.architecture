@@ -19,6 +19,8 @@ public class Component extends BaseConcept implements INamedConcept {
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String PROVIDED_INTERFACE = "providedInterface";
   public static final String REQUIRED_INTERFACES = "requiredInterfaces";
+  public static final String PUBLISHED_REPLICATED_ITEM = "publishedReplicatedItem";
+  public static final String CONSUMED_REPLICATED_ITEM = "consumedReplicatedItem";
 
   public Component(SNode node) {
     super(node);
@@ -96,6 +98,45 @@ public class Component extends BaseConcept implements INamedConcept {
     this.insertChild(prev, Component.REQUIRED_INTERFACES, node);
   }
 
+  public int getPublishedReplicatedItemsCount() {
+    return this.getChildCount(Component.PUBLISHED_REPLICATED_ITEM);
+  }
+
+  public Iterator<PublishedReplicatedItem> publishedReplicatedItems() {
+    return this.children(PublishedReplicatedItem.class, Component.PUBLISHED_REPLICATED_ITEM);
+  }
+
+  public List<PublishedReplicatedItem> getPublishedReplicatedItems() {
+    return this.getChildren(PublishedReplicatedItem.class, Component.PUBLISHED_REPLICATED_ITEM);
+  }
+
+  public void addPublishedReplicatedItem(PublishedReplicatedItem node) {
+    this.addChild(Component.PUBLISHED_REPLICATED_ITEM, node);
+  }
+
+  public void insertPublishedReplicatedItem(PublishedReplicatedItem prev, PublishedReplicatedItem node) {
+    this.insertChild(prev, Component.PUBLISHED_REPLICATED_ITEM, node);
+  }
+
+  public int getConsumedReplicatedItemsCount() {
+    return this.getChildCount(Component.CONSUMED_REPLICATED_ITEM);
+  }
+
+  public Iterator<ConsumedReplicatedItem> consumedReplicatedItems() {
+    return this.children(ConsumedReplicatedItem.class, Component.CONSUMED_REPLICATED_ITEM);
+  }
+
+  public List<ConsumedReplicatedItem> getConsumedReplicatedItems() {
+    return this.getChildren(ConsumedReplicatedItem.class, Component.CONSUMED_REPLICATED_ITEM);
+  }
+
+  public void addConsumedReplicatedItem(ConsumedReplicatedItem node) {
+    this.addChild(Component.CONSUMED_REPLICATED_ITEM, node);
+  }
+
+  public void insertConsumedReplicatedItem(ConsumedReplicatedItem prev, ConsumedReplicatedItem node) {
+    this.insertChild(prev, Component.CONSUMED_REPLICATED_ITEM, node);
+  }
 
   public static Component newInstance(SModel sm, boolean init) {
     return (Component)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Component", sm, GlobalScope.getInstance(), init).getAdapter();
@@ -104,5 +145,4 @@ public class Component extends BaseConcept implements INamedConcept {
   public static Component newInstance(SModel sm) {
     return Component.newInstance(sm, false);
   }
-
 }

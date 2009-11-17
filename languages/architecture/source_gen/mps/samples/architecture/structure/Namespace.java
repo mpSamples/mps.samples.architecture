@@ -117,7 +117,6 @@ public class Namespace extends BaseConcept implements INamedConcept {
     this.insertChild(prev, Namespace.SYSTEMS, node);
   }
 
-
   public static Namespace newInstance(SModel sm, boolean init) {
     return (Namespace)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Namespace", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -125,5 +124,4 @@ public class Namespace extends BaseConcept implements INamedConcept {
   public static Namespace newInstance(SModel sm) {
     return Namespace.newInstance(sm, false);
   }
-
 }

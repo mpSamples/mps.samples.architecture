@@ -61,7 +61,6 @@ public class ProvidedInterface extends BaseConcept implements INamedConcept {
     super.setReferent(ProvidedInterface.INTERFACE, node);
   }
 
-
   public static ProvidedInterface newInstance(SModel sm, boolean init) {
     return (ProvidedInterface)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.ProvidedInterface", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -69,5 +68,4 @@ public class ProvidedInterface extends BaseConcept implements INamedConcept {
   public static ProvidedInterface newInstance(SModel sm) {
     return ProvidedInterface.newInstance(sm, false);
   }
-
 }

@@ -96,7 +96,6 @@ public class Architecture extends BaseConcept implements INamedConcept {
     this.insertChild(prev, Architecture.INTERFACE, node);
   }
 
-
   public static Architecture newInstance(SModel sm, boolean init) {
     return (Architecture)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Architecture", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -104,5 +103,4 @@ public class Architecture extends BaseConcept implements INamedConcept {
   public static Architecture newInstance(SModel sm) {
     return Architecture.newInstance(sm, false);
   }
-
 }

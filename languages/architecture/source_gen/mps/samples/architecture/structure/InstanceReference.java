@@ -24,7 +24,6 @@ public class InstanceReference extends BaseConcept {
     super.setReferent(InstanceReference.INSTANCE, node);
   }
 
-
   public static InstanceReference newInstance(SModel sm, boolean init) {
     return (InstanceReference)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.InstanceReference", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -32,5 +31,4 @@ public class InstanceReference extends BaseConcept {
   public static InstanceReference newInstance(SModel sm) {
     return InstanceReference.newInstance(sm, false);
   }
-
 }

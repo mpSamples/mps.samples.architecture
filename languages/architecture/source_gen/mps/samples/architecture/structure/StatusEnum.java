@@ -4,7 +4,7 @@ package mps.samples.architecture.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.LinkedList;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public enum StatusEnum {
   active("active", "active"),
@@ -30,7 +30,6 @@ public enum StatusEnum {
     return this.myValue;
   }
 
-
   public static List<StatusEnum> getConstants() {
     List<StatusEnum> list = ListSequence.fromList(new LinkedList<StatusEnum>());
     ListSequence.fromList(list).addElement(StatusEnum.active);
@@ -54,5 +53,4 @@ public enum StatusEnum {
     }
     return StatusEnum.getDefault();
   }
-
 }

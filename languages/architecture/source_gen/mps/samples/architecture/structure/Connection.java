@@ -47,7 +47,6 @@ public class Connection extends BaseConcept {
     this.insertChild(prev, Connection.RIGHT_SIDE, node);
   }
 
-
   public static Connection newInstance(SModel sm, boolean init) {
     return (Connection)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Connection", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -55,5 +54,4 @@ public class Connection extends BaseConcept {
   public static Connection newInstance(SModel sm) {
     return Connection.newInstance(sm, false);
   }
-
 }

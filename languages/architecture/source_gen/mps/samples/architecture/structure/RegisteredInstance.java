@@ -37,7 +37,6 @@ public class RegisteredInstance extends Instance {
     this.insertChild(prev, RegisteredInstance.INSTANCE_REGISTRATION_PARAMETER, node);
   }
 
-
   public static RegisteredInstance newInstance(SModel sm, boolean init) {
     return (RegisteredInstance)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.RegisteredInstance", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -45,5 +44,4 @@ public class RegisteredInstance extends Instance {
   public static RegisteredInstance newInstance(SModel sm) {
     return RegisteredInstance.newInstance(sm, false);
   }
-
 }

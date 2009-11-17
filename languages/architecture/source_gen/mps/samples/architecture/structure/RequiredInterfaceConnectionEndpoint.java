@@ -32,7 +32,6 @@ public class RequiredInterfaceConnectionEndpoint extends ConnectionEndpoint {
     super.setChild(RequiredInterfaceConnectionEndpoint.REQUIRED_INTERFACE_REFERENCE, node);
   }
 
-
   public static RequiredInterfaceConnectionEndpoint newInstance(SModel sm, boolean init) {
     return (RequiredInterfaceConnectionEndpoint)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -40,5 +39,4 @@ public class RequiredInterfaceConnectionEndpoint extends ConnectionEndpoint {
   public static RequiredInterfaceConnectionEndpoint newInstance(SModel sm) {
     return RequiredInterfaceConnectionEndpoint.newInstance(sm, false);
   }
-
 }

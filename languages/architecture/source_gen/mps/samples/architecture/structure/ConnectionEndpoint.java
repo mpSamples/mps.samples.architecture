@@ -22,5 +22,4 @@ public class ConnectionEndpoint extends BaseConcept {
   public static ConnectionEndpoint newInstance(SModel sm) {
     return ConnectionEndpoint.newInstance(sm, false);
   }
-
 }

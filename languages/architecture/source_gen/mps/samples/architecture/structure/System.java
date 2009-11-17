@@ -138,7 +138,6 @@ public class System extends BaseConcept implements INamedConcept {
     this.insertChild(prev, System.DYNAMIC_CONNECTIONS, node);
   }
 
-
   public static System newInstance(SModel sm, boolean init) {
     return (System)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.System", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -146,5 +145,4 @@ public class System extends BaseConcept implements INamedConcept {
   public static System newInstance(SModel sm) {
     return System.newInstance(sm, false);
   }
-
 }

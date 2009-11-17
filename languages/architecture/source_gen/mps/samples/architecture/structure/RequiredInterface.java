@@ -70,7 +70,6 @@ public class RequiredInterface extends BaseConcept implements INamedConcept {
     super.setChild(RequiredInterface.CARDINALITY, node);
   }
 
-
   public static RequiredInterface newInstance(SModel sm, boolean init) {
     return (RequiredInterface)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.RequiredInterface", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -78,5 +77,4 @@ public class RequiredInterface extends BaseConcept implements INamedConcept {
   public static RequiredInterface newInstance(SModel sm) {
     return RequiredInterface.newInstance(sm, false);
   }
-
 }

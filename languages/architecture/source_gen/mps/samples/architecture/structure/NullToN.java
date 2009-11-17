@@ -21,5 +21,4 @@ public class NullToN extends Cardinality {
   public static NullToN newInstance(SModel sm) {
     return NullToN.newInstance(sm, false);
   }
-
 }

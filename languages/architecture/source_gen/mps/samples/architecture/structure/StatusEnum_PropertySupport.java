@@ -7,7 +7,6 @@ import java.util.Iterator;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class StatusEnum_PropertySupport extends PropertySupport {
-
   public boolean canSetValue(String value) {
     if (value == null) {
       return true;
@@ -43,5 +42,4 @@ public class StatusEnum_PropertySupport extends PropertySupport {
     }
     return "";
   }
-
 }

@@ -5,8 +5,6 @@ package mps.samples.architecture.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class Connection_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

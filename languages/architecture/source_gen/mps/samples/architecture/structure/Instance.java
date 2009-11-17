@@ -61,7 +61,6 @@ public class Instance extends BaseConcept implements INamedConcept {
     super.setReferent(Instance.COMPONENT, node);
   }
 
-
   public static Instance newInstance(SModel sm, boolean init) {
     return (Instance)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Instance", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -69,5 +68,4 @@ public class Instance extends BaseConcept implements INamedConcept {
   public static Instance newInstance(SModel sm) {
     return Instance.newInstance(sm, false);
   }
-
 }

@@ -52,7 +52,6 @@ public class Interface extends BaseConcept implements INamedConcept {
     this.setProperty(Interface.VIRTUAL_PACKAGE, value);
   }
 
-
   public static Interface newInstance(SModel sm, boolean init) {
     return (Interface)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.Interface", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -60,5 +59,4 @@ public class Interface extends BaseConcept implements INamedConcept {
   public static Interface newInstance(SModel sm) {
     return Interface.newInstance(sm, false);
   }
-
 }

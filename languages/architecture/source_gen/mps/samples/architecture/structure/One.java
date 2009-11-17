@@ -21,5 +21,4 @@ public class One extends Cardinality {
   public static One newInstance(SModel sm) {
     return One.newInstance(sm, false);
   }
-
 }

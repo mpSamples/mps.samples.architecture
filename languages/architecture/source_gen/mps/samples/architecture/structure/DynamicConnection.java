@@ -42,7 +42,6 @@ public class DynamicConnection extends BaseConcept {
     super.setChild(DynamicConnection.QUERY, node);
   }
 
-
   public static DynamicConnection newInstance(SModel sm, boolean init) {
     return (DynamicConnection)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.DynamicConnection", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -50,5 +49,4 @@ public class DynamicConnection extends BaseConcept {
   public static DynamicConnection newInstance(SModel sm) {
     return DynamicConnection.newInstance(sm, false);
   }
-
 }

@@ -24,7 +24,6 @@ public class ProvidedInterfaceReference extends BaseConcept {
     super.setReferent(ProvidedInterfaceReference.PROVIDED_INTERFACE, node);
   }
 
-
   public static ProvidedInterfaceReference newInstance(SModel sm, boolean init) {
     return (ProvidedInterfaceReference)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.ProvidedInterfaceReference", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -32,5 +31,4 @@ public class ProvidedInterfaceReference extends BaseConcept {
   public static ProvidedInterfaceReference newInstance(SModel sm) {
     return ProvidedInterfaceReference.newInstance(sm, false);
   }
-
 }

@@ -32,7 +32,6 @@ public class ProvidedInterfaceConnectionEndpoint extends ConnectionEndpoint {
     super.setChild(ProvidedInterfaceConnectionEndpoint.PROVIDED_INTERFACE_REFERENCE, node);
   }
 
-
   public static ProvidedInterfaceConnectionEndpoint newInstance(SModel sm, boolean init) {
     return (ProvidedInterfaceConnectionEndpoint)SModelUtil_new.instantiateConceptDeclaration("mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint", sm, GlobalScope.getInstance(), init).getAdapter();
   }
@@ -40,5 +39,4 @@ public class ProvidedInterfaceConnectionEndpoint extends ConnectionEndpoint {
   public static ProvidedInterfaceConnectionEndpoint newInstance(SModel sm) {
     return ProvidedInterfaceConnectionEndpoint.newInstance(sm, false);
   }
-
 }

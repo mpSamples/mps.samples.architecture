@@ -22,5 +22,4 @@ public class Cardinality extends BaseConcept {
   public static Cardinality newInstance(SModel sm) {
     return Cardinality.newInstance(sm, false);
   }
-
 }
