@@ -128,6 +128,22 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="6037042154708652660">
     <link role="conceptDeclaration" targetNodeId="1.6037042154708652657" resolveInfo="Architecture" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="6037042154708869147">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1487527769976635385">
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1487527769976635386" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1487527769976635377">
+          <property name="text" value="Solution" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1487527769976635388">
+          <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1487527769976635381">
+        <property name="text" value="(see Architecture as Language by Markus Völter for details)" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="1487527769976635383">
+          <property name="style" value="ITALIC" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1487527769976635379" />
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="6037042154708869148" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="6037042154708869150">
         <link role="relationDeclaration" targetNodeId="1.6037042154708869146" />

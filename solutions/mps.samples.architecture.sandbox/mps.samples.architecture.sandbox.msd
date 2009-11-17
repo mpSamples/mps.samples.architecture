@@ -6,7 +6,7 @@
   <classPath />
   <sourcePath />
   <usedLanguages>
-    <usedLanguages>e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture)</usedLanguages>
+    <usedLanguage>e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture)</usedLanguage>
   </usedLanguages>
 </solution>
 
