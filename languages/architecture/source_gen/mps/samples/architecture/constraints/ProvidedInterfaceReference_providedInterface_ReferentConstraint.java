@@ -10,9 +10,8 @@ import jetbrains.mps.smodel.constraints.ReferentConstraintContext;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public class ProvidedInterfaceReference_providedInterface_ReferentConstraint extends BaseNodeReferenceSearchScopeProvider implements IModelConstraints {
   public ProvidedInterfaceReference_providedInterface_ReferentConstraint() {
@@ -28,10 +27,7 @@ public class ProvidedInterfaceReference_providedInterface_ReferentConstraint ext
 
   public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferentConstraintContext _context) {
     List<SNode> result = new ArrayList<SNode>();
-    SNode parent = SNodeOperations.cast(_context.getEnclosingNode(), "mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint");
-    if (SLinkOperations.getTarget(parent, "instanceReference", true) != null) {
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(parent, "instanceReference", true), "instance", false), "component", false), "providedInterfaces", true)));
-    }
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(SModelOperations.getNodes(_context.getModel(), "mps.samples.architecture.structure.ProvidedInterface")));
     return result;
   }
 }

@@ -20,21 +20,21 @@ import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4289_2(editorContext, node);
+    return this.createCollection_4289_0(editorContext, node);
   }
 
-  private EditorCell createCollection_4289_2(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_4289_2");
-    editorCell.addEditorCell(this.createCollection_4289_3(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_4289_4(editorContext, node));
+    editorCell.setCellId("Collection_4289_0");
+    editorCell.addEditorCell(this.createCollection_4289_1(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_4289_2(editorContext, node));
     editorCell.addEditorCell(this.createConstant_4289_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4289_3(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_4289_3");
+    editorCell.setCellId("Collection_4289_1");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
@@ -44,51 +44,51 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_4289_4(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_2(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4289_4");
+    editorCell.setCellId("Collection_4289_2");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createCollection_4289_5(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_4289_3(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4289_5(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_3(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_4289_5");
+    editorCell.setCellId("Collection_4289_3");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
-    editorCell.addEditorCell(this.createCollection_4289_6(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_4289_7(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_4289_4(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_4289_5(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4289_6(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_4(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_4289_6");
+    editorCell.setCellId("Collection_4289_4");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createConstant_4289_3(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_4289_2(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_4289_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4289_7(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4289_5(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_4289_7");
+    editorCell.setCellId("Collection_4289_5");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createConstant_4289_4(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_4289_1(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_4289_0(editorContext, node));
     return editorCell;
   }
 
@@ -131,7 +131,7 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_4289_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_4289_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("status");
     provider.setNoTargetText("<no status>");
@@ -149,12 +149,12 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_4289_2(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_4289_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("type");
     provider.setNoTargetText("<no type>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DynamicConnectionQuery_Editor._Inline4289_2());
+    provider.setAuxiliaryCellProvider(new DynamicConnectionQuery_Editor._Inline4289_0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -177,12 +177,12 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createCollection_4289_1(editorContext, node);
+      return this.createCollection_4289_6(editorContext, node);
     }
 
-    private EditorCell createCollection_4289_1(EditorContext editorContext, SNode node) {
+    private EditorCell createCollection_4289_6(EditorContext editorContext, SNode node) {
       EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-      editorCell.setCellId("Collection_4289_1");
+      editorCell.setCellId("Collection_4289_6");
       editorCell.addEditorCell(this.createRefCell_4289_1(editorContext, node));
       return editorCell;
     }
@@ -216,10 +216,10 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_4289_0(editorContext, node);
+      return this.createProperty_4289_1(editorContext, node);
     }
 
-    private EditorCell createProperty_4289_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_4289_1(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -227,45 +227,6 @@ public class DynamicConnectionQuery_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      SNode attributeConcept = provider.getRoleAttribute();
-      Class attributeKind = provider.getRoleAttributeClass();
-      if (attributeConcept != null) {
-        IOperationContext opContext = editorContext.getOperationContext();
-        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-      } else
-      return editorCell;
-    }
-  }
-
-  public static class _Inline4289_2 extends InlineCellProvider {
-    public _Inline4289_2() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createCollection_4289_0(editorContext, node);
-    }
-
-    private EditorCell createCollection_4289_0(EditorContext editorContext, SNode node) {
-      EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-      editorCell.setCellId("Collection_4289_0");
-      editorCell.addEditorCell(this.createRefCell_4289_0(editorContext, node));
-      return editorCell;
-    }
-
-    private EditorCell createRefCell_4289_0(EditorContext editorContext, SNode node) {
-      CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-      provider.setRole("providedInterface");
-      provider.setNoTargetText("<no providedInterface>");
-      EditorCell editorCell;
-      provider.setAuxiliaryCellProvider(new DynamicConnectionQuery_Editor._Inline4289_0());
-      editorCell = provider.createEditorCell(editorContext);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

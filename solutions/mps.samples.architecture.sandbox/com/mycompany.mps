@@ -1,78 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:f1caf9f2-f767-4114-b27c-ede094c923e6(com.mycompany)">
+<model modelUID="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="0" />
-  <maxImportIndex value="1" />
-  <import index="1" modelUID="r:c8e69b8d-c6cf-473d-9b3e-c763155239b6(mps.samples.architecture.sandbox.sandbox)" version="-1" />
-  <node type="mps.samples.architecture.structure.Namespace" id="1487527769976628634">
-    <property name="name" value="com.mycompany" />
-    <node role="namespaces" type="mps.samples.architecture.structure.Namespace" id="1487527769976628635">
-      <property name="name" value="datacenter" />
-      <node role="components" type="mps.samples.architecture.structure.Component" id="1487527769976628636">
-        <property name="name" value="DelayCalculator" />
-        <node role="requiredInterfaces" type="mps.samples.architecture.structure.RequiredInterface" id="1487527769976628637">
-          <property name="name" value="screens" />
-          <link role="interface" targetNodeId="1.6037042154709087630" resolveInfo="IInfoScreen" />
-          <node role="cardinality" type="mps.samples.architecture.structure.NullToN" id="1487527769976628638" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
+  <maxImportIndex value="0" />
+  <node type="mps.samples.architecture.structure.ConceptualArchitecture" id="7320545744730029107">
+    <property name="name" value="Conceptual Architecture" />
+    <node role="namespace" type="mps.samples.architecture.structure.NamespaceForConceptualArchitecture" id="7320545744730029110">
+      <property name="name" value="com.mycompany" />
+      <node role="namespaces" type="mps.samples.architecture.structure.NamespaceForConceptualArchitecture" id="7320545744730029111">
+        <property name="name" value="datacenter" />
+        <node role="components" type="mps.samples.architecture.structure.Component" id="7320545744730029112">
+          <property name="name" value="DelayCalculator" />
+          <node role="requiredInterfaces" type="mps.samples.architecture.structure.RequiredInterface" id="7320545744730029118">
+            <property name="name" value="screens" />
+            <link role="interface" targetNodeId="7320545744730029117" resolveInfo="IInfoScreen" />
+            <node role="cardinality" type="mps.samples.architecture.structure.NullToN" id="7320545744730029119" />
+          </node>
+          <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="7320545744730029113">
+            <property name="name" value="aircraft" />
+            <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+          </node>
+          <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="7320545744730029116">
+            <property name="name" value="managementConsole" />
+            <link role="interface" targetNodeId="7320545744730029115" resolveInfo="IManagementConsole" />
+          </node>
         </node>
-        <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628639">
-          <property name="name" value="aircraft" />
-          <link role="interface" targetNodeId="1.6037042154710213863" resolveInfo="IAircraftStatus" />
-        </node>
-        <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="1487527769976628640">
-          <property name="name" value="managementConsole" />
-          <link role="interface" targetNodeId="1.6037042154710213864" resolveInfo="IManagementConsole" />
+        <node role="components" type="mps.samples.architecture.structure.Component" id="7320545744730029120">
+          <property name="name" value="Manager" />
+          <node role="requiredInterfaces" type="mps.samples.architecture.structure.RequiredInterface" id="7320545744730029121">
+            <property name="name" value="backend" />
+            <link role="interface" targetNodeId="7320545744730029115" resolveInfo="IManagementConsole" />
+            <node role="cardinality" type="mps.samples.architecture.structure.One" id="7320545744730029122" />
+          </node>
         </node>
       </node>
-      <node role="components" type="mps.samples.architecture.structure.Component" id="1487527769976628641">
-        <property name="name" value="Manager" />
-        <node role="requiredInterfaces" type="mps.samples.architecture.structure.RequiredInterface" id="1487527769976628642">
-          <property name="name" value="backend" />
-          <link role="interface" targetNodeId="1.6037042154710213864" resolveInfo="IManagementConsole" />
-          <node role="cardinality" type="mps.samples.architecture.structure.One" id="1487527769976628643" />
+      <node role="namespaces" type="mps.samples.architecture.structure.NamespaceForConceptualArchitecture" id="7320545744730029123">
+        <property name="name" value="mobile" />
+        <node role="components" type="mps.samples.architecture.structure.Component" id="7320545744730029124">
+          <property name="name" value="InfoScreen" />
+          <node role="providedInterfaces" type="mps.samples.architecture.structure.ProvidedInterface" id="7320545744730029125">
+            <property name="name" value="default" />
+            <link role="interface" targetNodeId="7320545744730029117" resolveInfo="IInfoScreen" />
+          </node>
+        </node>
+        <node role="components" type="mps.samples.architecture.structure.Component" id="7320545744730029126">
+          <property name="name" value="AircraftModule" />
+          <node role="requiredInterfaces" type="mps.samples.architecture.structure.RequiredInterface" id="7320545744730029127">
+            <property name="name" value="calculator" />
+            <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+            <node role="cardinality" type="mps.samples.architecture.structure.One" id="7320545744731288989" />
+          </node>
         </node>
       </node>
     </node>
+    <node role="component_not_needed_anymore_with_namespaces_page_7" type="mps.samples.architecture.structure.Component" id="7320545744730029108" />
+    <node role="interface" type="mps.samples.architecture.structure.Interface" id="7320545744730029109">
+      <property name="name" value="IAircraftStatus" />
+    </node>
+    <node role="interface" type="mps.samples.architecture.structure.Interface" id="7320545744730029115">
+      <property name="name" value="IManagementConsole" />
+    </node>
+    <node role="interface" type="mps.samples.architecture.structure.Interface" id="7320545744730029117">
+      <property name="name" value="IInfoScreen" />
+    </node>
   </node>
-  <node type="mps.samples.architecture.structure.Namespace" id="1487527769976628645">
-    <property name="name" value="com.mycompany.test" />
-    <node role="systems" type="mps.samples.architecture.structure.System" id="1487527769976628646">
-      <property name="name" value="testSystem" />
-      <node role="dynamicConnections" type="mps.samples.architecture.structure.DynamicConnection" id="1487527769976628647">
-        <property name="interval" value="60" />
-        <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="1487527769976628648">
-          <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="1487527769976628649">
-            <link role="instance" targetNodeId="1487527769976628653" resolveInfo="dc" />
+  <node type="mps.samples.architecture.structure.ApplicationArchitecture" id="7320545744730293485">
+    <property name="name" value="Application Architecture" />
+    <node role="namespace" type="mps.samples.architecture.structure.NamespaceForApplicationArchitecture" id="7320545744730293492">
+      <property name="name" value="com.mycompany.test" />
+      <node role="systems" type="mps.samples.architecture.structure.System" id="7320545744730703834">
+        <property name="name" value="testSystem" />
+        <node role="dynamicConnections" type="mps.samples.architecture.structure.DynamicConnection" id="7320545744731435407">
+          <property name="interval" value="60" />
+          <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="7320545744731435408">
+            <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="7320545744731435413">
+              <link role="instance" targetNodeId="7320545744730850101" resolveInfo="dc" />
+            </node>
+            <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="7320545744731435414">
+              <link role="requiredInterface" targetNodeId="7320545744730029118" resolveInfo="screens" />
+            </node>
           </node>
-          <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="1487527769976628650">
-            <link role="requiredInterface" targetNodeId="1487527769976628637" resolveInfo="screens" />
+          <node role="query" type="mps.samples.architecture.structure.DynamicConnectionQuery" id="7320545744731435411">
+            <node role="type" type="mps.samples.architecture.structure.InterfaceReference" id="7320545744732287534">
+              <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+            </node>
           </node>
         </node>
-        <node role="query" type="mps.samples.architecture.structure.DynamicConnectionQuery" id="1487527769976628651">
-          <node role="type" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="1487527769976628652">
-            <link role="providedInterface" targetNodeId="1.6037042154710327100" resolveInfo="default" />
+        <node role="connections" type="mps.samples.architecture.structure.Connection" id="7320545744730996369">
+          <node role="leftSide" type="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" id="7320545744730996370">
+            <node role="leftSide" type="mps.samples.architecture.structure.InstanceReference" id="7320545744730996376">
+              <link role="instance" targetNodeId="7320545744730850101" resolveInfo="dc" />
+            </node>
+            <node role="requiredInterfaceReference" type="mps.samples.architecture.structure.RequiredInterfaceReference" id="7320545744730996377">
+              <link role="requiredInterface" targetNodeId="7320545744730029118" resolveInfo="screens" />
+            </node>
+          </node>
+          <node role="rightSide" type="mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint" id="7320545744730996373">
+            <node role="instanceReference" type="mps.samples.architecture.structure.InstanceReference" id="7320545744730996378">
+              <link role="instance" targetNodeId="7320545744730996367" resolveInfo="screen1" />
+            </node>
+            <node role="providedInterfaceReference" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="7320545744730996379">
+              <link role="providedInterface" targetNodeId="7320545744730029125" resolveInfo="default" />
+            </node>
+          </node>
+          <node role="rightSide" type="mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint" id="7320545744730996380">
+            <node role="instanceReference" type="mps.samples.architecture.structure.InstanceReference" id="7320545744730996383">
+              <link role="instance" targetNodeId="7320545744730996368" resolveInfo="screen2" />
+            </node>
+            <node role="providedInterfaceReference" type="mps.samples.architecture.structure.ProvidedInterfaceReference" id="7320545744730996384">
+              <link role="providedInterface" targetNodeId="7320545744730029125" resolveInfo="default" />
+            </node>
           </node>
         </node>
-      </node>
-      <node role="instances" type="mps.samples.architecture.structure.Instance" id="1487527769976628653">
-        <property name="name" value="dc" />
-        <link role="component" targetNodeId="1487527769976628636" resolveInfo="DelayCalculator" />
-      </node>
-      <node role="instances" type="mps.samples.architecture.structure.Instance" id="1487527769976628654">
-        <property name="name" value="screen1" />
-        <link role="component" targetNodeId="1.6037042154708760505" resolveInfo="InfoScreen" />
-      </node>
-      <node role="instances" type="mps.samples.architecture.structure.Instance" id="1487527769976628655">
-        <property name="name" value="screen2" />
-        <link role="component" targetNodeId="1.6037042154708760505" resolveInfo="InfoScreen" />
+        <node role="instances" type="mps.samples.architecture.structure.Instance" id="7320545744730850101">
+          <property name="name" value="dc" />
+          <link role="component" targetNodeId="7320545744730029112" resolveInfo="DelayCalculator" />
+        </node>
+        <node role="instances" type="mps.samples.architecture.structure.Instance" id="7320545744730996367">
+          <property name="name" value="screen1" />
+          <link role="component" targetNodeId="7320545744730029124" resolveInfo="InfoScreen" />
+        </node>
+        <node role="instances" type="mps.samples.architecture.structure.Instance" id="7320545744730996368">
+          <property name="name" value="screen2" />
+          <link role="component" targetNodeId="7320545744730029124" resolveInfo="InfoScreen" />
+        </node>
+        <node role="registeredInstance" type="mps.samples.architecture.structure.RegisteredInstance" id="7320545744731435403">
+          <property name="name" value="dc1" />
+          <link role="component" targetNodeId="7320545744730029112" resolveInfo="DelayCalculator" />
+          <node role="instanceRegistrationParameter" type="mps.samples.architecture.structure.InstanceRegistrationParameter" id="7320545744731435404">
+            <property name="name" value="role" />
+            <property name="value" value="primary" />
+          </node>
+        </node>
+        <node role="registeredInstance" type="mps.samples.architecture.structure.RegisteredInstance" id="7320545744731435405">
+          <property name="name" value="dc2" />
+          <link role="component" targetNodeId="7320545744730029112" resolveInfo="DelayCalculator" />
+          <node role="instanceRegistrationParameter" type="mps.samples.architecture.structure.InstanceRegistrationParameter" id="7320545744731435406">
+            <property name="name" value="role" />
+            <property name="value" value="backup" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

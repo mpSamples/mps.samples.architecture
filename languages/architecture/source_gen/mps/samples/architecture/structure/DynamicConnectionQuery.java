@@ -26,11 +26,11 @@ public class DynamicConnectionQuery extends BaseConcept {
     super.setProperty(DynamicConnectionQuery.STATUS, value.getValueAsString());
   }
 
-  public ProvidedInterfaceReference getType() {
-    return (ProvidedInterfaceReference)this.getChild(ProvidedInterfaceReference.class, DynamicConnectionQuery.TYPE);
+  public InterfaceReference getType() {
+    return (InterfaceReference)this.getChild(InterfaceReference.class, DynamicConnectionQuery.TYPE);
   }
 
-  public void setType(ProvidedInterfaceReference node) {
+  public void setType(InterfaceReference node) {
     super.setChild(DynamicConnectionQuery.TYPE, node);
   }
 
