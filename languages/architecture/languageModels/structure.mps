@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)">
+<model modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)">
   <persistence version="3" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
@@ -42,6 +42,130 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="4">
+      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="ApplicationArchitecture" conceptFQName="mps.samples.architecture.structure.ApplicationArchitecture" featureKind="CONCEPT" />
+          <value featureName="ApplicationArchitecture" conceptFQName="mps.samples.architecture.base.structure.ApplicationArchitecture" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Cardinality" conceptFQName="mps.samples.architecture.structure.Cardinality" featureKind="CONCEPT" />
+          <value featureName="Cardinality" conceptFQName="mps.samples.architecture.base.structure.Cardinality" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Component" conceptFQName="mps.samples.architecture.structure.Component" featureKind="CONCEPT" />
+          <value featureName="Component" conceptFQName="mps.samples.architecture.base.structure.Component" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ConceptualArchitecture" conceptFQName="mps.samples.architecture.structure.ConceptualArchitecture" featureKind="CONCEPT" />
+          <value featureName="ConceptualArchitecture" conceptFQName="mps.samples.architecture.base.structure.ConceptualArchitecture" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Connection" conceptFQName="mps.samples.architecture.structure.Connection" featureKind="CONCEPT" />
+          <value featureName="Connection" conceptFQName="mps.samples.architecture.base.structure.Connection" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ConnectionEndpoint" conceptFQName="mps.samples.architecture.structure.ConnectionEndpoint" featureKind="CONCEPT" />
+          <value featureName="ConnectionEndpoint" conceptFQName="mps.samples.architecture.base.structure.ConnectionEndpoint" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DynamicConnection" conceptFQName="mps.samples.architecture.structure.DynamicConnection" featureKind="CONCEPT" />
+          <value featureName="DynamicConnection" conceptFQName="mps.samples.architecture.base.structure.DynamicConnection" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DynamicConnectionQuery" conceptFQName="mps.samples.architecture.structure.DynamicConnectionQuery" featureKind="CONCEPT" />
+          <value featureName="DynamicConnectionQuery" conceptFQName="mps.samples.architecture.base.structure.DynamicConnectionQuery" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Instance" conceptFQName="mps.samples.architecture.structure.Instance" featureKind="CONCEPT" />
+          <value featureName="Instance" conceptFQName="mps.samples.architecture.base.structure.Instance" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="InstanceReference" conceptFQName="mps.samples.architecture.structure.InstanceReference" featureKind="CONCEPT" />
+          <value featureName="InstanceReference" conceptFQName="mps.samples.architecture.base.structure.InstanceReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="InstanceRegistrationParameter" conceptFQName="mps.samples.architecture.structure.InstanceRegistrationParameter" featureKind="CONCEPT" />
+          <value featureName="InstanceRegistrationParameter" conceptFQName="mps.samples.architecture.base.structure.InstanceRegistrationParameter" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Interface" conceptFQName="mps.samples.architecture.structure.Interface" featureKind="CONCEPT" />
+          <value featureName="Interface" conceptFQName="mps.samples.architecture.base.structure.Interface" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="InterfaceReference" conceptFQName="mps.samples.architecture.structure.InterfaceReference" featureKind="CONCEPT" />
+          <value featureName="InterfaceReference" conceptFQName="mps.samples.architecture.base.structure.InterfaceReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NamespaceForApplicationArchitecture" conceptFQName="mps.samples.architecture.structure.NamespaceForApplicationArchitecture" featureKind="CONCEPT" />
+          <value featureName="NamespaceForApplicationArchitecture" conceptFQName="mps.samples.architecture.base.structure.NamespaceForApplicationArchitecture" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NamespaceForConceptualArchitecture" conceptFQName="mps.samples.architecture.structure.NamespaceForConceptualArchitecture" featureKind="CONCEPT" />
+          <value featureName="NamespaceForConceptualArchitecture" conceptFQName="mps.samples.architecture.base.structure.NamespaceForConceptualArchitecture" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NullToN" conceptFQName="mps.samples.architecture.structure.NullToN" featureKind="CONCEPT" />
+          <value featureName="NullToN" conceptFQName="mps.samples.architecture.base.structure.NullToN" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NullToOne" conceptFQName="mps.samples.architecture.structure.NullToOne" featureKind="CONCEPT" />
+          <value featureName="NullToOne" conceptFQName="mps.samples.architecture.base.structure.NullToOne" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="One" conceptFQName="mps.samples.architecture.structure.One" featureKind="CONCEPT" />
+          <value featureName="One" conceptFQName="mps.samples.architecture.base.structure.One" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="OneToN" conceptFQName="mps.samples.architecture.structure.OneToN" featureKind="CONCEPT" />
+          <value featureName="OneToN" conceptFQName="mps.samples.architecture.base.structure.OneToN" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ProvidedInterface" conceptFQName="mps.samples.architecture.structure.ProvidedInterface" featureKind="CONCEPT" />
+          <value featureName="ProvidedInterface" conceptFQName="mps.samples.architecture.base.structure.ProvidedInterface" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ProvidedInterfaceConnectionEndpoint" conceptFQName="mps.samples.architecture.structure.ProvidedInterfaceConnectionEndpoint" featureKind="CONCEPT" />
+          <value featureName="ProvidedInterfaceConnectionEndpoint" conceptFQName="mps.samples.architecture.base.structure.ProvidedInterfaceConnectionEndpoint" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ProvidedInterfaceReference" conceptFQName="mps.samples.architecture.structure.ProvidedInterfaceReference" featureKind="CONCEPT" />
+          <value featureName="ProvidedInterfaceReference" conceptFQName="mps.samples.architecture.base.structure.ProvidedInterfaceReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="RegisteredInstance" conceptFQName="mps.samples.architecture.structure.RegisteredInstance" featureKind="CONCEPT" />
+          <value featureName="RegisteredInstance" conceptFQName="mps.samples.architecture.base.structure.RegisteredInstance" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="RequiredInterface" conceptFQName="mps.samples.architecture.structure.RequiredInterface" featureKind="CONCEPT" />
+          <value featureName="RequiredInterface" conceptFQName="mps.samples.architecture.base.structure.RequiredInterface" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="RequiredInterfaceConnectionEndpoint" conceptFQName="mps.samples.architecture.structure.RequiredInterfaceConnectionEndpoint" featureKind="CONCEPT" />
+          <value featureName="RequiredInterfaceConnectionEndpoint" conceptFQName="mps.samples.architecture.base.structure.RequiredInterfaceConnectionEndpoint" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="RequiredInterfaceReference" conceptFQName="mps.samples.architecture.structure.RequiredInterfaceReference" featureKind="CONCEPT" />
+          <value featureName="RequiredInterfaceReference" conceptFQName="mps.samples.architecture.base.structure.RequiredInterfaceReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="System" conceptFQName="mps.samples.architecture.structure.System" featureKind="CONCEPT" />
+          <value featureName="System" conceptFQName="mps.samples.architecture.base.structure.System" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="5">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="Interface" conceptFQName="mps.samples.architecture.base.structure.Interface" featureKind="CONCEPT" />
+          <value featureName="DeprecatedInterface" conceptFQName="mps.samples.architecture.base.structure.DeprecatedInterface" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
@@ -63,11 +187,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="3" />
+  <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" version="5" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.structure)" version="3" />
+  <import index="1" modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" version="5" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <visible index="3" modelUID="r:2020e734-555d-45bc-b2ff-4046351a48f3(mps.sample.architecture.replicated_datastructures.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6037042154708547716">
     <property name="name" value="Component" />
     <property name="rootable" value="true" />
@@ -83,6 +208,18 @@
       <property name="role" value="requiredInterfaces" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="6037042154708978123" resolveInfo="InterfaceReference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5978425319743038566">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="publish" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="3v.5978425319741908026" resolveInfo="Publish" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5978425319743038583">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="consume" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="3v.5978425319742540174" resolveInfo="Consume" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154708547717">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
@@ -115,7 +252,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6037042154708760507">
-    <property name="name" value="Interface" />
+    <property name="name" value="DeprecatedInterface" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154708760508">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />

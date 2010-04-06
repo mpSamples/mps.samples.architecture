@@ -7,11 +7,15 @@
   <component name="MPSProject">
     <projectSolutions>
       <solutionPath path="${project}/solutions/mps.samples.architecture.sandbox/mps.samples.architecture.sandbox.msd" />
-      <solutionPath path="${project}/solutions/mps.samples.architecture.sandbox.v2/mps.samples.architecture.sandbox.v2.msd" folder="" />
+      <solutionPath path="${project}/solutions/mps.samples.architecture.types.sandbox/mps.samples.architecture.types.sandbox.msd" folder="" />
+      <solutionPath path="${project}/solutions/mps.samples.architecture.interfaces/mps.samples.architecture.interfaces.msd" folder="" />
+      <solutionPath path="${project}/solutions/mps.samples.architecture.replicated_datastructures.sandbox/mps.samples.architecture.replicated_datastructures.sandbox.msd" folder="" />
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/architecture/architecture.mpl" />
-      <languagePath path="${project}/languages/v2/v2.mpl" folder="" />
+      <languagePath path="${project}/languages/interfaces/interfaces.mpl" folder="" />
+      <languagePath path="${project}/languages/types/types.mpl" folder="" />
+      <languagePath path="${project}/languages/replicated_datastructures/replicated_datastructures.mpl" folder="" />
     </projectLanguages>
     <projectDevkits />
     <genConfs />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <nodeInfo nodeId="1487527769977738802" fileName="RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" startLine="29" startPosition="132" endLine="30" endPosition="48" />
+  <nodeInfo nodeId="1487527769977740020" fileName="RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" startLine="30" startPosition="48" endLine="31" endPosition="148" />
+  <nodeInfo nodeId="1487527769977740026" fileName="RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" startLine="34" startPosition="5" endLine="35" endPosition="18" />
+  <nodeInfo nodeId="1487527769977740032" fileName="RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" startLine="31" startPosition="148" endLine="34" endPosition="5" />
+  <nodeInfo nodeId="1487527769977740046" fileName="RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" startLine="32" startPosition="70" endLine="33" endPosition="273" />
+  <nodeInfo nodeId="1487527769977847643" fileName="ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" startLine="28" startPosition="132" endLine="29" endPosition="48" />
+  <nodeInfo nodeId="1487527769977847653" fileName="ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" startLine="30" startPosition="178" endLine="31" endPosition="18" />
+  <nodeInfo nodeId="7320545744731743338" fileName="ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" startLine="29" startPosition="48" endLine="30" endPosition="178" />
+</debugInfo>
+
