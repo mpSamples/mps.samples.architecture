@@ -5,6 +5,7 @@
   <language namespace="e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture.base)" />
   <language namespace="e71f9d52-3001-4671-b636-fff03fa9aebe(mps.sample.architecture.replicated_datastructures)" />
   <language namespace="7eee7fbe-f09a-4297-afe1-a4ea3ce11a1e(mps.samples.architecture.types)" />
+  <language namespace="8334936c-9f55-44c5-b5d4-cb373f5d6480(mps.sample.architecture.interfaces)" />
   <languageAspect modelUID="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" version="5" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -31,23 +32,23 @@
           </node>
           <node role="requiredInterfaces" type="mps.samples.architecture.base.structure.RequiredInterface" id="7320545744730029118">
             <property name="name" value="screens" />
-            <link role="interface" targetNodeId="7320545744730029117" resolveInfo="IInfoScreen" />
+            <link role="interface" targetNodeId="5978425319744319884" resolveInfo="IInfoScreen" />
             <node role="cardinality" type="mps.samples.architecture.base.structure.NullToN" id="7320545744730029119" />
           </node>
           <node role="providedInterfaces" type="mps.samples.architecture.base.structure.ProvidedInterface" id="7320545744730029113">
             <property name="name" value="aircraft" />
-            <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+            <link role="interface" targetNodeId="5978425319744319868" resolveInfo="IAircraftStatus" />
           </node>
           <node role="providedInterfaces" type="mps.samples.architecture.base.structure.ProvidedInterface" id="7320545744730029116">
             <property name="name" value="managementConsole" />
-            <link role="interface" targetNodeId="7320545744730029115" resolveInfo="IManagementConsole" />
+            <link role="interface" targetNodeId="5978425319744319883" resolveInfo="IManagementConsole" />
           </node>
         </node>
         <node role="components" type="mps.samples.architecture.base.structure.Component" id="7320545744730029120">
           <property name="name" value="Manager" />
           <node role="requiredInterfaces" type="mps.samples.architecture.base.structure.RequiredInterface" id="7320545744730029121">
             <property name="name" value="backend" />
-            <link role="interface" targetNodeId="7320545744730029115" resolveInfo="IManagementConsole" />
+            <link role="interface" targetNodeId="5978425319744319883" resolveInfo="IManagementConsole" />
             <node role="cardinality" type="mps.samples.architecture.base.structure.One" id="7320545744730029122" />
           </node>
         </node>
@@ -58,27 +59,44 @@
           <property name="name" value="InfoScreen" />
           <node role="providedInterfaces" type="mps.samples.architecture.base.structure.ProvidedInterface" id="7320545744730029125">
             <property name="name" value="default" />
-            <link role="interface" targetNodeId="7320545744730029117" resolveInfo="IInfoScreen" />
+            <link role="interface" targetNodeId="5978425319744319884" resolveInfo="IInfoScreen" />
           </node>
         </node>
         <node role="components" type="mps.samples.architecture.base.structure.Component" id="7320545744730029126">
           <property name="name" value="AircraftModule" />
           <node role="requiredInterfaces" type="mps.samples.architecture.base.structure.RequiredInterface" id="7320545744730029127">
             <property name="name" value="calculator" />
-            <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+            <link role="interface" targetNodeId="5978425319744319868" resolveInfo="IAircraftStatus" />
             <node role="cardinality" type="mps.samples.architecture.base.structure.One" id="7320545744731288989" />
           </node>
         </node>
       </node>
     </node>
     <node role="component_not_needed_anymore_with_namespaces_page_7" type="mps.samples.architecture.base.structure.Component" id="7320545744730029108" />
-    <node role="interface" type="mps.samples.architecture.base.structure.DeprecatedInterface" id="7320545744730029109">
+    <node role="interface" type="mps.sample.architecture.interfaces.structure.Interface" id="5978425319744319868">
       <property name="name" value="IAircraftStatus" />
+      <node role="message" type="mps.sample.architecture.interfaces.structure.OnewayMessage" id="5978425319744319870">
+        <property name="name" value="reportPosition" />
+        <node role="messageParameters" type="mps.sample.architecture.interfaces.structure.MessageParameters" id="5978425319744319872">
+          <node role="messageParameter" type="mps.sample.architecture.interfaces.structure.MessageParameter" id="5978425319744319873">
+            <property name="name" value="aircraft" />
+            <node role="type" type="mps.samples.architecture.types.structure.TypedefReference" id="5978425319744319878">
+              <link role="typedef" targetNodeId="5978425319744319875" resolveInfo="ID" />
+            </node>
+          </node>
+          <node role="messageParameter" type="mps.sample.architecture.interfaces.structure.MessageParameter" id="5978425319744319879">
+            <property name="name" value="pos" />
+            <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319744319882">
+              <link role="struct" targetNodeId="5978425319744319881" resolveInfo="Position" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
-    <node role="interface" type="mps.samples.architecture.base.structure.DeprecatedInterface" id="7320545744730029115">
+    <node role="interface" type="mps.sample.architecture.interfaces.structure.Interface" id="5978425319744319883">
       <property name="name" value="IManagementConsole" />
     </node>
-    <node role="interface" type="mps.samples.architecture.base.structure.DeprecatedInterface" id="7320545744730029117">
+    <node role="interface" type="mps.sample.architecture.interfaces.structure.Interface" id="5978425319744319884">
       <property name="name" value="IInfoScreen" />
     </node>
   </node>
@@ -100,7 +118,7 @@
           </node>
           <node role="query" type="mps.samples.architecture.base.structure.DynamicConnectionQuery" id="7320545744731435411">
             <node role="type" type="mps.samples.architecture.base.structure.InterfaceReference" id="7320545744732287534">
-              <link role="interface" targetNodeId="7320545744730029109" resolveInfo="IAircraftStatus" />
+              <link role="interface" targetNodeId="5978425319744319868" resolveInfo="IAircraftStatus" />
             </node>
           </node>
         </node>
@@ -163,10 +181,20 @@
   </node>
   <node type="mps.sample.architecture.replicated_datastructures.structure.ReplicatedSingleton" id="5978425319743434058">
     <property name="name" value="flights" />
+    <property name="package" value="types" />
     <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319743434059">
       <property name="name" value="flightInfos" />
       <node role="type" type="mps.samples.architecture.types.structure.StringType" id="5978425319743434061" />
     </node>
+  </node>
+  <node type="mps.samples.architecture.types.structure.Typedef" id="5978425319744319875">
+    <property name="name" value="ID" />
+    <property name="package" value="types" />
+    <node role="type" type="mps.samples.architecture.types.structure.LongType" id="5978425319744319877" />
+  </node>
+  <node type="mps.samples.architecture.types.structure.Struct" id="5978425319744319881">
+    <property name="package" value="types" />
+    <property name="name" value="Position" />
   </node>
 </model>
 

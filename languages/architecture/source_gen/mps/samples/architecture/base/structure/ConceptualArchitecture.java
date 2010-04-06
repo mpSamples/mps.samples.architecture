@@ -7,6 +7,7 @@ import jetbrains.mps.lang.core.structure.INamedConcept;
 import jetbrains.mps.smodel.SNode;
 import java.util.Iterator;
 import java.util.List;
+import mps.sample.architecture.interfaces.structure.Interface;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -101,19 +102,19 @@ public class ConceptualArchitecture extends BaseConcept implements INamedConcept
     return this.getChildCount(ConceptualArchitecture.INTERFACE);
   }
 
-  public Iterator<DeprecatedInterface> interfaces() {
-    return this.children(DeprecatedInterface.class, ConceptualArchitecture.INTERFACE);
+  public Iterator<Interface> interfaces() {
+    return this.children(Interface.class, ConceptualArchitecture.INTERFACE);
   }
 
-  public List<DeprecatedInterface> getInterfaces() {
-    return this.getChildren(DeprecatedInterface.class, ConceptualArchitecture.INTERFACE);
+  public List<Interface> getInterfaces() {
+    return this.getChildren(Interface.class, ConceptualArchitecture.INTERFACE);
   }
 
-  public void addInterface(DeprecatedInterface node) {
+  public void addInterface(Interface node) {
     this.addChild(ConceptualArchitecture.INTERFACE, node);
   }
 
-  public void insertInterface(DeprecatedInterface prev, DeprecatedInterface node) {
+  public void insertInterface(Interface prev, Interface node) {
     this.insertChild(prev, ConceptualArchitecture.INTERFACE, node);
   }
 

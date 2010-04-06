@@ -225,6 +225,7 @@
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <visible index="4" modelUID="r:8da4344a-de05-4bcf-9bfb-ca5cdc4d8c75(mps.sample.architecture.interfaces.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6037042154708652657">
     <property name="name" value="ConceptualArchitecture" />
     <property name="rootable" value="true" />
@@ -245,16 +246,9 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="interface" />
       <property name="sourceCardinality" value="1..n" />
-      <link role="target" targetNodeId="6037042154708760507" resolveInfo="Interface" />
+      <link role="target" targetNodeId="4v.5978425319739501227" resolveInfo="Interface" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154708652658">
-      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6037042154708760507">
-    <property name="name" value="DeprecatedInterface" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154708760508">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
@@ -265,7 +259,7 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="interface" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="6037042154708760507" resolveInfo="Interface" />
+      <link role="target" targetNodeId="4v.5978425319739501227" resolveInfo="Interface" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154709628851">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
@@ -328,7 +322,7 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="interface" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="6037042154708760507" resolveInfo="Interface" />
+      <link role="target" targetNodeId="4v.5978425319739501227" resolveInfo="Interface" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6037042154710100692">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
@@ -603,7 +597,7 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="interface" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="6037042154708760507" resolveInfo="Interface" />
+      <link role="target" targetNodeId="4v.5978425319739501227" resolveInfo="Interface" />
     </node>
   </node>
 </model>

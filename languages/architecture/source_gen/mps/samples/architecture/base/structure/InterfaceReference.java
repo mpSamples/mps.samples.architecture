@@ -4,6 +4,7 @@ package mps.samples.architecture.base.structure;
 
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.smodel.SNode;
+import mps.sample.architecture.interfaces.structure.Interface;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -16,11 +17,11 @@ public class InterfaceReference extends BaseConcept {
     super(node);
   }
 
-  public DeprecatedInterface getInterface() {
-    return (DeprecatedInterface)this.getReferent(DeprecatedInterface.class, InterfaceReference.INTERFACE);
+  public Interface getInterface() {
+    return (Interface)this.getReferent(Interface.class, InterfaceReference.INTERFACE);
   }
 
-  public void setInterface(DeprecatedInterface node) {
+  public void setInterface(Interface node) {
     super.setReferent(InterfaceReference.INTERFACE, node);
   }
 

@@ -53,358 +53,20 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="488eb37f-eaf3-4983-b21e-4b52f34f573e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/NullToOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/DatastructureReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/V2_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/System_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/InstanceRegistrationParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/languageModels/constraints.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/MessageParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/behavior/ConceptualArchitecture_Behavior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/DataStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RequiredInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/Struct.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/v2/languageModels/structure.mps" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Architecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ProvidedInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/NullToOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/CustomDataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/DynamicConnection_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/NullToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/Component_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/StructReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/InstanceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/constraints/RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/StructMember.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/mps.samples.architecture.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/mps.samples.architecture.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/languageModels/structure.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.interfaces/interfaces/sandbox.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/RequiredInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/OneToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ReplicationProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/behavior/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/languageModels/editor.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/DataStructureReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/languageModels/structure.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/One.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/Component_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RegisteredInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/Interface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/NamespaceForConceptualArchitecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/RequiredInterfaceConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/Struct_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/RequiredInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/ReplicatedDatastructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/editor/ReplicationSpecification_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/constraints/RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ConsumedReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/ProvidedInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/ProvidedInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/editor/.hash.-7wu2lneb6hwn1zcabayajm7wf7h42ko" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/NullToOne_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/System.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/StringType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/constraints/ConstraintsDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/StructReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/InstanceRegistrationParameter_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/Typedef_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.replicated_datastructures.sandbox/mps.samples.architecture.replicated_datastructures.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Interfaces_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Replicated_datastructures_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/One.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Instance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/RequiredInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/languageModels/constraints.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/RequiredInterfaceConnectionEndpoint.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/v2/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/types/languageModels/typesystem.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/CustomDataStructureMember.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/DataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/DeprecatedInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/RegisteredInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/InstanceRegistrationParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/editor/.hash.8tg9clyclfku3dw4ljinhtau99a0pau" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/DynamicConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/editor/DatastructureReference_Editor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$5.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/languageModels/editor.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/DynamicConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ApplicationArchitecture.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/v2/languageModels/editor.mps" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/structure/.debug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/RequiredInterface_Editor$1.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/RequiredInterface_Editor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/v2/v2.mpl" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/structure/.hash.-aokiwckz60iskkj4darz0lbtazmgkp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/ProvidedInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/RequiredInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/IntType_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/DynamicConnectionQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/RequiredInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ProvidedInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/structure/.hash.10hry7wo0972740vd5zqzsmphulld4q" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/structure/.hash.-blnk27j962939z7bxuopnzdcjvkvzhd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ConnectionEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/constraints.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Namespace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ProvidedInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/JavaDataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/languageModels/editor.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/StatusEnum_PropertySupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/DeprecatedInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/DataStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ProvidedInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/structure/.hash.2cit4lylhrgiw4ohg3ioh942w02q2oo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/Interface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/Interface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Architecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/editor/OnewayMessage_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.types.sandbox/sandbox.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/RegisteredInstance_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/constraints/ConstraintsDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/InstanceRegistrationParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/editor/.debug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$3.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/ReplicationSpecification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/MessageParameters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/constraints/ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/DataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/ProvidedInterfaceConnectionEndpoint_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.hash.-4zyi7lx0tcp37g94xqbuywpo8gbnu74" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/behavior/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/languageModels/structure.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Instance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/constraints/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.types.sandbox/mps.samples.architecture.types.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/constraints/ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/constraints/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/InstanceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/Interfaces_Language.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox.v2/com/mycompany/v2.mps" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ReplicationProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/OneToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/DataStructureReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ProvidedInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/OneToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Base_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/editor/Publish_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/behavior/.hash.-bm8b5h7vqulzkyjmdmcwlwkizwp39fa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.replicated_datastructures.sandbox/replicated_datastructures/sandbox.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/RequiredInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/constraints/ConstraintsDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/JavaDataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/RequiredInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ProvidedInterfaceConnectionEndpoint.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$1.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/DynamicConnectionQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/editor/MessageParameters_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/OnewayMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/DynamicConnectionQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/constraints/ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Interface_Editor$1.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/LongType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/ApplicationArchitecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Cardinality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/languageModels/structure.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/StatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/TypedefReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/constraints/.hash.-23v9sibrjote4y5mp6i2dmpqw9yd7cv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$6.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/RequiredInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/DataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/editor/MessageParameter_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/editor/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mps.samples.architecture.mpr" afterPath="$PROJECT_DIR$/mps.samples.architecture.mpr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/PublishedReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/RequiredInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/editor/.hash.-a34lbt4870w8va7ccfhz7rmln6wladq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/InstanceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/RequiredInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/StatusEnum_PropertySupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Instance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/editor/.hash.b3v1oob2xewq9ckedyg6clyn4kdh1y1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/languageModels/structure.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/InterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RequiredInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Cardinality.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$4.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/Typedef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/StatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/Connection_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/RequiredInterface_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/structure.metadata" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/structure.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.interfaces/mps.samples.architecture.interfaces.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/JavaDataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/editor/.hash.815obk4x7vvni2hhm9rk3zhaf4994tb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/NullToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Namespace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/languageModels/constraints.mps" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$2.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/editor/RequestReplyMessage_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/ConceptualArchitecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/Component_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ProvidedInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ReplicationProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/CustomDataStructureMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/RequiredInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/IntType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ProvidedInterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ConsumedReplicatedItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ProvidedInterface.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ProvidedInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.dependencies" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.dependencies" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/DeprecatedInterface_Editor.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RequiredInterface.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RequiredInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mps.samples.architecture.iws" afterPath="$PROJECT_DIR$/mps.samples.architecture.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/editor/Interface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/NullToN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/typesystem.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/OneToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen/mps/sample/architecture/interfaces/structure/RequestReplyMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/NullToN_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/Types_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/One.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/DataStructureReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/Component_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/interfaces.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.debug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$providedInterfaceListHandler_3311_0.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/languageModels/structure.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/DynamicConnectionQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/PublishedReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ProvidedInterfaceConnectionEndpoint.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/ProvidedInterface_Editor$1.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/DynamicConnectionQuery_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.hash.4iphxmgcvuoq81jhzp0ngnxom2qotee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/System.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Interface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/languageModels/typesystem.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/Instance_Editor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox.v2/mps.samples.architecture.sandbox.v2.msd" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/StatusEnum_PropertySupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/RegisteredInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/ProvidedInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Instance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/OneToN_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ConceptualArchitecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/behavior/Connection_Behavior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/PublishedReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/RequiredInterfaceConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/Architecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/editor/ReplicatedSingleton_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/StatusEnum_PropertySupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/Architecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Interface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/Consume.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/InstanceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Namespace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/Namespace_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/editor/.hash.6gx4lxti5dlr0oevbysdbryl72lu3hy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/Replicated_datastructures_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/ProvidedInterfaceReference_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/languageModels/structure.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/constraints/.hash.-ar4y3bbztq10v4q3ouoiseda9udr2rm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/NullToOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/source_gen.caches/mps/sample/architecture/interfaces/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/One.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ProvidedInterfaceConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/constraints/RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/interfaces/languageModels/typesystem.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/RequiredInterfaceConnectionEndpoint_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/constraints/ConstraintsDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/DynamicConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/ReplicatedSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/NamespaceForApplicationArchitecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/Architecture_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/constraints/RequiredInterfaceReference_requiredInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/InterfaceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/NamespaceForApplicationArchitecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/Namespace_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/ReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/DataStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/StatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Architecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/structure/.hash.328ghmj7t2y58jknneps5rm05eegwn2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/RequiredInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/constraints/.hash.-atwuqeihuenayni7wrtpsnbpg7jevko" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/editor/Namespace_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/InstanceReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/TypedefReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/StatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/StringType_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/InstanceRegistrationParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Interface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/RegisteredInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/ProvidedInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/NullToOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/RequiredInterfaceConnectionEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/constraints/ProvidedInterfaceReference_providedInterface_ReferentConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/structure/System.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/structure/.hash.-2nuhecemnyursltelits62ol7rmapye" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/replicated_datastructures/editor/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/architecture.mpl" afterPath="$PROJECT_DIR$/languages/architecture/architecture.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/ProvidedInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/structure/Publish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/System.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ProvidedInterfaceConnectionEndpoint.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/v2/languageModels/constraints.mps" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen.caches/mps/samples/architecture/types/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen.caches/mps/sample/architecture/replicated_datastructures/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/NamespaceForConceptualArchitecture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/constraints/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/types.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/constraints/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/structure/Type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/replicated_datastructures.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/ConsumedReplicatedItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/v2/structure/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/editor/One_Editor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/classes_gen/mps/samples/architecture/editor/Component_Editor$7.class" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/StructMember_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/ProvidedInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/DynamicConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/replicated_datastructures/source_gen/mps/sample/architecture/replicated_datastructures/editor/Consume_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/replicated_datastructures/editor/Interface_Editor.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/DeprecatedInterface.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" afterPath="$PROJECT_DIR$/solutions/mps.samples.architecture.sandbox/com/mycompany.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.hash.4iphxmgcvuoq81jhzp0ngnxom2qotee" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.hash.-bq6j6x5xofrwuvm5634lvue7oekbb26" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/architecture/languageModels/structure.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/editor/ProvidedInterface_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/interfaces/structure/Cardinality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/constraints/.hash.22f4kxpbutelrmyvi0q8t7r6z6z5g29" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen.caches/mps/samples/architecture/interfaces/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/v2/source_gen/mps/samples/architecture/v2/structure/Cardinality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/NullToN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/types/source_gen/mps/samples/architecture/types/editor/LongType_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/InterfaceReference.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/InterfaceReference.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.hash.-4zyi7lx0tcp37g94xqbuywpo8gbnu74" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/structure/.hash.-1h2gkyddxhsb561ry74qpu5v9n31ltz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.dependencies" afterPath="$PROJECT_DIR$/languages/architecture/source_gen.caches/mps/samples/architecture/base/editor/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ConceptualArchitecture.java" afterPath="$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/ConceptualArchitecture.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="mps.samples.architecture.iws" />
@@ -435,69 +97,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Component" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://mps.samples.architecture.base.structure/Component">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequiredInterface" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://mps.samples.architecture.base.structure/RequiredInterface">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeprecatedInterface" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://mps.samples.architecture.base.structure/DeprecatedInterface">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Conceptual Architecture" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://com.mycompany/Conceptual Architecture">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -505,24 +104,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProvidedInterface" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://mps.samples.architecture.base.structure/ProvidedInterface">
+      <file leaf-file-name="Application Architecture" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://com.mycompany/Application Architecture">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://com.mycompany/Position">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ID" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://com.mycompany/ID">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
@@ -742,6 +341,24 @@
               <option name="myItemId" value="VCS Roots" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps.samples.architecture" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCS Roots" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps.samples.architecture" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <selection />
         </subPane>
@@ -786,6 +403,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="structure" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mps.samples.architecture.base.sandbox" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mycompany" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -844,10 +479,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1918" height="1159" extended-state="4" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981783" sideWeight="0.49788135" order="7" side_tool="false" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.4957627" order="7" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.4957627" order="7" side_tool="false" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.49364406" order="7" side_tool="false" />
       <window_info id="Run Packaging Language Build Script" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Supertypes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -864,14 +499,15 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694152" sideWeight="0.47033897" order="7" side_tool="false" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.43961865" order="7" side_tool="false" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694152" sideWeight="0.4618644" order="7" side_tool="false" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981783" sideWeight="0.4269068" order="7" side_tool="false" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981783" sideWeight="0.49841103" order="7" side_tool="true" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981783" sideWeight="0.5693856" order="7" side_tool="true" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.49788135" order="7" side_tool="false" />
       <window_info id="cell explorer view" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Run Build Language Project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -881,7 +517,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="RunClass" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
@@ -890,333 +525,7 @@
   </component>
   <component name="UsagesViewTool">
     <version id="0.9997" />
-    <tabs>
-      <tab>
-        <usage_view>
-          <buttons rerun="true" regenerate="true" close="true" />
-          <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
-            <children>
-              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
-                <children />
-                <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
-              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
-              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
-                <children />
-                <finder class_name="jetbrains.mps.lang.structure.findUsages.ConceptInstances_Finder" />
-              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
-            </children>
-          </result_provider>
-          <query>
-            <scope scope_type="global_scope" />
-            <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-              <node>
-                <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="6037042154710100691" />
-              </node>
-            </holder>
-          </query>
-          <tree_wrapper>
-            <plain_path_provider />
-            <view_options>
-              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
-            </view_options>
-            <contents>
-              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.MainNodeData" caption="" info="" excluded="false" expanded="true" isresult="false" results_section="false">
-                <role name="main root" />
-              </data>
-              <children>
-                <child>
-                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" caption="Searched nodes" info="" excluded="false" expanded="true" isresult="false" results_section="false">
-                    <role name="searched nodes" />
-                  </data>
-                  <children>
-                    <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Searched nodes&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="false" category="Searched nodes">
-                        <role name="category" />
-                      </data>
-                      <children>
-                        <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="mps.samples.architecture.base" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture.base)">
-                            <role name="module" />
-                          </data>
-                          <children>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="mps.samples.architecture.base.structure" info="" excluded="false" expanded="false" isresult="false" results_section="false">
-                                <role name="model" />
-                                <model uid="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ProvidedInterface" info="" excluded="false" expanded="false" isresult="true" results_section="false">
-                                    <role name="target" />
-                                    <node>
-                                      <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="6037042154710100691" />
-                                    </node>
-                                  </data>
-                                  <children />
-                                </child>
-                              </children>
-                            </child>
-                          </children>
-                        </child>
-                      </children>
-                    </child>
-                  </children>
-                </child>
-                <child>
-                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" caption="results" info="" excluded="false" expanded="true" isresult="false" results_section="false">
-                    <role name="results" />
-                  </data>
-                  <children>
-                    <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages">
-                        <role name="category" />
-                      </data>
-                      <children>
-                        <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="mps.samples.architecture.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="e04769b2-a289-407b-ae3f-4c93ac019447(mps.samples.architecture.base)">
-                            <role name="module" />
-                          </data>
-                          <children>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="mps.samples.architecture.base.structure" info="" excluded="false" expanded="true" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ProvidedInterfaceReference" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="8369951910276192775" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="providedInterface" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;ProvidedInterfaceReference&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="8369951910276192776" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Component" info="" excluded="false" expanded="true" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="6037042154708547716" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="providedInterfaces" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;Component&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:48d060fb-6323-4e5a-9b95-34393c7b2db8(mps.samples.architecture.base.structure)" id="6037042154708760518" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="mps.samples.architecture.base.constraints" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ProvidedInterfaceReference_Constraints" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" id="1487527769977847639" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="result" info="role: &lt;i&gt;localVariableDeclaration&lt;/i&gt;; in: &lt;i&gt;&amp;lt;type&amp;gt; &amp;lt;var&amp;gt;;&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                        <role name="root to target" />
-                                        <node>
-                                          <node model="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" id="1487527769977847644" />
-                                        </node>
-                                      </data>
-                                      <children>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="nlist&amp;lt;ProvidedInterface&amp;gt;" info="role: &lt;i&gt;createdType&lt;/i&gt;; in: &lt;i&gt;nlist&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" id="1487527769977847650" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="nlist&amp;lt;ProvidedInterface&amp;gt;" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;result&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                            <role name="target" />
-                                            <node>
-                                              <node model="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" id="1487527769977847645" />
-                                            </node>
-                                          </data>
-                                          <children />
-                                        </child>
-                                      </children>
-                                    </child>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="nodes" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:4ca090b0-f894-4ede-af65-df8c66b0e35b(mps.samples.architecture.base.constraints)" id="7320545744731743383" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="mps.samples.architecture.base.editor" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:13fda24e-5e07-4560-937c-c36e396ebc7d(mps.samples.architecture.base.editor)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ProvidedInterface_Editor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
-                                    <role name="target" />
-                                    <node>
-                                      <node model="r:13fda24e-5e07-4560-937c-c36e396ebc7d(mps.samples.architecture.base.editor)" id="6037042154710100694" />
-                                    </node>
-                                  </data>
-                                  <children />
-                                </child>
-                              </children>
-                            </child>
-                          </children>
-                        </child>
-                      </children>
-                    </child>
-                    <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Concept Instances&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Concept Instances">
-                        <role name="category" />
-                      </data>
-                      <children>
-                        <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="mps.samples.architecture.base.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="d6fb33f2-13c9-4a2b-87fb-30c002f00660(mps.samples.architecture.base.sandbox)">
-                            <role name="module" />
-                          </data>
-                          <children>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="com.mycompany" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Conceptual Architecture" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029107" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="com.mycompany" info="role: &lt;i&gt;namespace&lt;/i&gt;; in: &lt;i&gt;Conceptual Architecture&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                        <role name="root to target" />
-                                        <node>
-                                          <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029110" />
-                                        </node>
-                                      </data>
-                                      <children>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="datacenter" info="role: &lt;i&gt;namespaces&lt;/i&gt;; in: &lt;i&gt;com.mycompany&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                            <role name="root to target" />
-                                            <node>
-                                              <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029111" />
-                                            </node>
-                                          </data>
-                                          <children>
-                                            <child>
-                                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="DelayCalculator" info="role: &lt;i&gt;components&lt;/i&gt;; in: &lt;i&gt;datacenter&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                                <role name="root to target" />
-                                                <node>
-                                                  <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029112" />
-                                                </node>
-                                              </data>
-                                              <children>
-                                                <child>
-                                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="managementConsole" info="role: &lt;i&gt;providedInterfaces&lt;/i&gt;; in: &lt;i&gt;DelayCalculator&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                                    <role name="target" />
-                                                    <node>
-                                                      <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029116" />
-                                                    </node>
-                                                  </data>
-                                                  <children />
-                                                </child>
-                                                <child>
-                                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="aircraft" info="role: &lt;i&gt;providedInterfaces&lt;/i&gt;; in: &lt;i&gt;DelayCalculator&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                                    <role name="target" />
-                                                    <node>
-                                                      <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029113" />
-                                                    </node>
-                                                  </data>
-                                                  <children />
-                                                </child>
-                                              </children>
-                                            </child>
-                                          </children>
-                                        </child>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="mobile" info="role: &lt;i&gt;namespaces&lt;/i&gt;; in: &lt;i&gt;com.mycompany&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                            <role name="root to target" />
-                                            <node>
-                                              <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029123" />
-                                            </node>
-                                          </data>
-                                          <children>
-                                            <child>
-                                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="InfoScreen" info="role: &lt;i&gt;components&lt;/i&gt;; in: &lt;i&gt;mobile&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                                <role name="root to target" />
-                                                <node>
-                                                  <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029124" />
-                                                </node>
-                                              </data>
-                                              <children>
-                                                <child>
-                                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="default" info="role: &lt;i&gt;providedInterfaces&lt;/i&gt;; in: &lt;i&gt;InfoScreen&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                                    <role name="target" />
-                                                    <node>
-                                                      <node model="r:1c74fc19-f48d-4f1c-a8eb-d80c492b4a72(com.mycompany)" id="7320545744730029125" />
-                                                    </node>
-                                                  </data>
-                                                  <children />
-                                                </child>
-                                              </children>
-                                            </child>
-                                          </children>
-                                        </child>
-                                      </children>
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                          </children>
-                        </child>
-                      </children>
-                    </child>
-                  </children>
-                </child>
-              </children>
-            </contents>
-          </tree_wrapper>
-        </usage_view>
-        <usage_view_options />
-      </tab>
-    </tabs>
+    <tabs />
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
@@ -1241,7 +550,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split in two langagues, edited first (the original) language to fit the paper until &quot;Interfaces, Part II&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split in several languages" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1271,6 +580,7 @@
     <MESSAGE value="cosmetics: spaces before and after point removed" />
     <MESSAGE value="cosmetics: spaces before colon removed" />
     <MESSAGE value="Split in two langagues, edited first (the original) language to fit the paper until &quot;Interfaces, Part II&quot;" />
+    <MESSAGE value="Split in several languages" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1307,82 +617,6 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://mps.sample.architecture.replicated_datastructures.structure/ReplicatedSingleton">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.sample.architecture.replicated_datastructures.structure/ReplicatedDatastructure">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.sample.architecture.replicated_datastructures.structure/Publish">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://mps.sample.architecture.replicated_datastructures.structure/Consume">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://mps.sample.architecture.replicated_datastructures.structure/ReplicationSpecification">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
@@ -1441,6 +675,49 @@
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.base.structure/Component">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://mps.samples.architecture.base.structure/ConceptualArchitecture">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://mps.samples.architecture.base.structure/ProvidedInterface">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
@@ -1479,47 +756,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/architecture/source_gen/mps/samples/architecture/base/structure/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+    <entry file="mps://com.mycompany/ID">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://mps.samples.architecture.base.structure/DeprecatedInterface">
+    <entry file="mps://com.mycompany/Position">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://mps.samples.architecture.base.structure/Component">
+    <entry file="mps://com.mycompany/Application Architecture">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
     <entry file="mps://com.mycompany/Conceptual Architecture">

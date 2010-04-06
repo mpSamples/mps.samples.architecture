@@ -49,8 +49,8 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="mps.sample.architecture.interfaces.structure.Interface" />
     <classNode dependClassName="mps.samples.architecture.base.structure.Component" />
-    <classNode dependClassName="mps.samples.architecture.base.structure.DeprecatedInterface" />
     <classNode dependClassName="mps.samples.architecture.base.structure.NamespaceForConceptualArchitecture" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
@@ -68,15 +68,6 @@
   </dependency>
   <dependency className="mps.samples.architecture.base.structure.ConnectionEndpoint">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
-  </dependency>
-  <dependency className="mps.samples.architecture.base.structure.DeprecatedInterface">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -137,7 +128,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="mps.samples.architecture.base.structure.DeprecatedInterface" />
+    <classNode dependClassName="mps.sample.architecture.interfaces.structure.Interface" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="mps.samples.architecture.base.structure.NamespaceForApplicationArchitecture">
@@ -207,7 +198,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="mps.samples.architecture.base.structure.DeprecatedInterface" />
+    <classNode dependClassName="mps.sample.architecture.interfaces.structure.Interface" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="mps.samples.architecture.base.structure.ProvidedInterfaceConnectionEndpoint">
@@ -249,8 +240,8 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="mps.sample.architecture.interfaces.structure.Interface" />
     <classNode dependClassName="mps.samples.architecture.base.structure.Cardinality" />
-    <classNode dependClassName="mps.samples.architecture.base.structure.DeprecatedInterface" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="mps.samples.architecture.base.structure.RequiredInterfaceConnectionEndpoint">

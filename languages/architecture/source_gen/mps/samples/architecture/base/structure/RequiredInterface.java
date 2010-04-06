@@ -5,6 +5,7 @@ package mps.samples.architecture.base.structure;
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.lang.core.structure.INamedConcept;
 import jetbrains.mps.smodel.SNode;
+import mps.sample.architecture.interfaces.structure.Interface;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -54,11 +55,11 @@ public class RequiredInterface extends BaseConcept implements INamedConcept {
     this.setProperty(RequiredInterface.VIRTUAL_PACKAGE, value);
   }
 
-  public DeprecatedInterface getInterface() {
-    return (DeprecatedInterface)this.getReferent(DeprecatedInterface.class, RequiredInterface.INTERFACE);
+  public Interface getInterface() {
+    return (Interface)this.getReferent(Interface.class, RequiredInterface.INTERFACE);
   }
 
-  public void setInterface(DeprecatedInterface node) {
+  public void setInterface(Interface node) {
     super.setReferent(RequiredInterface.INTERFACE, node);
   }
 
