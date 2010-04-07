@@ -64,5 +64,16 @@
       </node>
     </node>
   </node>
+  <node type="mps.samples.architecture.types.structure.Struct" id="5978425319744772815">
+    <property name="name" value="flights" />
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319744772816">
+      <property name="name" value="flightInfo" />
+      <node role="type" type="mps.samples.architecture.types.structure.ArrayType" id="5978425319744772819">
+        <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319744772820">
+          <link role="struct" targetNodeId="5978425319739390499" resolveInfo="FlightInfo" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

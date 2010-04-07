@@ -151,5 +151,21 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5978425319744611554">
+    <link role="conceptDeclaration" targetNodeId="1.5978425319744611552" resolveInfo="ArrayType" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5978425319744611557">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="5978425319744611558" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="5978425319744611556">
+        <link role="relationDeclaration" targetNodeId="1.5978425319744611553" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5978425319744611560">
+        <property name="text" value="[]" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="5978425319744611561" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="5978425319744611563">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

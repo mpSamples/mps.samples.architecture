@@ -128,5 +128,15 @@
       <link role="target" targetNodeId="5978425319738637811" resolveInfo="Struct" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5978425319744611552">
+    <property name="name" value="ArrayType" />
+    <link role="extends" targetNodeId="5978425319738112321" resolveInfo="Type" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5978425319744611553">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="type" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="5978425319738112321" resolveInfo="Type" />
+    </node>
+  </node>
 </model>
 
