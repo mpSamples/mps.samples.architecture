@@ -184,7 +184,11 @@
     <property name="package" value="types" />
     <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319743434059">
       <property name="name" value="flightInfos" />
-      <node role="type" type="mps.samples.architecture.types.structure.StringType" id="5978425319743434061" />
+      <node role="type" type="mps.samples.architecture.types.structure.ArrayType" id="5978425319745456281">
+        <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319745456282">
+          <link role="struct" targetNodeId="5978425319745456253" resolveInfo="FlightInfo" />
+        </node>
+      </node>
     </node>
   </node>
   <node type="mps.samples.architecture.types.structure.Typedef" id="5978425319744319875">
@@ -195,6 +199,58 @@
   <node type="mps.samples.architecture.types.structure.Struct" id="5978425319744319881">
     <property name="package" value="types" />
     <property name="name" value="Position" />
+  </node>
+  <node type="mps.samples.architecture.types.structure.Struct" id="5978425319745456253">
+    <property name="package" value="types" />
+    <property name="name" value="FlightInfo" />
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456254">
+      <property name="name" value="from" />
+      <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319745456260">
+        <link role="struct" targetNodeId="5978425319745456256" resolveInfo="Airport" />
+      </node>
+    </node>
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456261">
+      <property name="name" value="to" />
+      <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319745456263">
+        <link role="struct" targetNodeId="5978425319745456256" resolveInfo="Airport" />
+      </node>
+    </node>
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456264">
+      <property name="name" value="scheduled" />
+      <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319745456276">
+        <link role="struct" targetNodeId="5978425319745456266" resolveInfo="Time" />
+      </node>
+    </node>
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456277">
+      <property name="name" value="expected" />
+      <node role="type" type="mps.samples.architecture.types.structure.StructReference" id="5978425319745456279">
+        <link role="struct" targetNodeId="5978425319745456266" resolveInfo="Time" />
+      </node>
+    </node>
+  </node>
+  <node type="mps.samples.architecture.types.structure.Struct" id="5978425319745456256">
+    <property name="package" value="types" />
+    <property name="name" value="Airport" />
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456257">
+      <property name="name" value="name" />
+      <node role="type" type="mps.samples.architecture.types.structure.StringType" id="5978425319745456259" />
+    </node>
+  </node>
+  <node type="mps.samples.architecture.types.structure.Struct" id="5978425319745456266">
+    <property name="package" value="types" />
+    <property name="name" value="Time" />
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456267">
+      <property name="name" value="hour" />
+      <node role="type" type="mps.samples.architecture.types.structure.IntType" id="5978425319745456269" />
+    </node>
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456270">
+      <property name="name" value="min" />
+      <node role="type" type="mps.samples.architecture.types.structure.IntType" id="5978425319745456272" />
+    </node>
+    <node role="structMember" type="mps.samples.architecture.types.structure.StructMember" id="5978425319745456273">
+      <property name="name" value="second" />
+      <node role="type" type="mps.samples.architecture.types.structure.IntType" id="5978425319745456275" />
+    </node>
   </node>
 </model>
 
